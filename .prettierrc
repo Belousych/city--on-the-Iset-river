@@ -1,0 +1,18 @@
+{
+  "endOfLine": "auto",
+  "printWidth": 100,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "importOrder": [
+    "^@/components/(.*)$",
+    "^@/hooks/(.*)$",
+    "^@/api/(.*)$",
+    "^@/utils/(.*)$",
+    "^@/context/(.*)$",
+    "^@/pages/(.*)$",
+    "^@/machines/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
