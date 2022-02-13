@@ -7,7 +7,7 @@ import styles from "./layout.module.css";
 
 const Layout = ({ children }) => {
   return (
-    <div className={styles.container} data-theme="pastel">
+    <div className={styles.container} data-theme="cupcake">
       <Head>
         <link rel="icon" href="/favicon.ico" />
       </Head>

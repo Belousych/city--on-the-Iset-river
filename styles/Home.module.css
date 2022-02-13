@@ -1,12 +1,28 @@
 .hello {
   position: relative;
-  padding-bottom: 54%;
   box-sizing: border-box;
   overflow: hidden;
-  min-height: 400px;
-  max-height: 80vh;
-
+  min-height: 300px;
+  padding-bottom: 54%;
   background-color: #e8e3c7;
+
+  background-image: url("../public/header.jpg");
+  background-position: center top;
+  background-size: cover;
+}
+
+.bg {
+  background-image: url("../public/header.jpg");
+}
+
+.hello:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #e8e3c7;
+  opacity: 0.4;
 }
 
 .text {
@@ -15,7 +31,7 @@
   width: 50%;
   min-width: 320px;
 
-  font-family: "Cookie", cursive;
+  /* font-family: "Cookie", cursive; */
   text-transform: uppercase;
 }
 
@@ -25,7 +41,8 @@
   top: 0;
   right: 0;
   bottom: 0;
-  @apply flex;
+  @apply flex p-5;
+  box-sizing: border-box;
 }
 
 .h1 {
@@ -34,10 +51,12 @@
   left: 8px;
   display: inline-block;
   color: #ba9186;
+
+  animation: show 0.5s linear;
 }
 
 .h1:before {
-  content: " ";
+  /* content: " "; */
   display: block;
   position: absolute;
   top: -8px;
@@ -103,5 +122,16 @@
   }
   100% {
     background-position: 100% 0;
+  }
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
   }
 }
