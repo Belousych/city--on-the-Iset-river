@@ -4,7 +4,6 @@ import Head from "next/head";
 import Image from "next/image";
 
 import Layout from "@/components/Layouts/Layout";
-import Tabs from "@/components/Tabs/Tabs";
 
 import styles from "../styles/Home.module.css";
 
@@ -15,7 +14,10 @@ export default function Home() {
         <title>Здравствуй, город на Исети</title>
       </Head>
 
-      <div className={cn("hero", "min-h-screen", styles.bg)}>
+      <div className={cn("hero", "min-h-screen")}>
+        <div className={styles.bg}>
+          <Image layout="fill" src="/header2.jpg" priority />
+        </div>
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="text-center hero-content text-neutral-content">
           <div className="max-w-md">
@@ -49,7 +51,72 @@ export default function Home() {
         </div>
       </div>
 
-      <Tabs />
+      <div className="hero min-h-screen bg-base-200 dark">
+        {/* <div className="hero-overlay bg-opacity-60"></div> */}
+        <div className="flex-col hero-content lg:flex-row-reverse">
+          <div className="text-center lg:text-left">
+            <h1 className="text-5xl font-bold">Город на Исети</h1>
+            <div className="py-6 prose">
+              <p>
+                Высотки смотрят вверх, <br />
+                Меряясь друг с другом этажами, <br />
+                И яблоневый снег <br />
+                Кружится над гранитной мостовой. <br />
+                И непонятно мне, <br />
+                Как же не заметили мы сами, <br />
+                Как за двадцать лет
+                <br />
+                Выросли с тобой!
+              </p>
+
+              <p>
+                <i>Припев: </i>
+              </p>
+              <p>
+                Здравствуй, город на Исети! <br />
+                Я в твои попался сети, <br />
+                И в дороге снятся знакомые огни.
+                <br />
+                Этот город на Исети -<br />
+                Здесь посчастливилось мне встретить
+                <br />
+                Самоцветные глаза твои!
+              </p>
+
+              <p>
+                Так много их, столиц, <br />
+                Которые тебя ещё не знают, <br />
+                И столько городов, <br />
+                Что, может быть, давно уже не ждут. <br />
+                Но среди тысяч лиц <br />
+                Одно в улыбке заставляет таять, <br />
+                И к набережной вновь <br />
+                На встречу я иду.
+              </p>
+
+              <p>
+                <i>Припев. </i>
+              </p>
+
+              <p>
+                Не потому ли тут <br />
+                Мечтать и танцевать, как в детстве, просто, <br />
+                Что рядом есть глаза – <br />
+                Глаза твои родные, а вокруг <br />
+                Все те, кто повзрослел, <br />
+                Те, кто вырос вместе со Свердловском, <br />И те, с кем подрастёт Екатеринбург!
+              </p>
+
+              <p>
+                <i>Припев.</i>
+              </p>
+            </div>
+          </div>
+          <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+            <div className="card-body">video</div>
+          </div>
+        </div>
+      </div>
     </Layout>
   );
 }
