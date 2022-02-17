@@ -55,7 +55,7 @@ export default function Home() {
         <div className="card flex-shrink-0 w-full shadow-2xl bg-base-100">
           <div className="card-body">
             <iframe
-              className="w-full aspect-video rounded-lg shadow-lg"
+              className="w-full aspect-video rounded-lg shadow-lg h-auto"
               width="560"
               height="315"
               src="https://www.youtube.com/embed/zKYeqLKLXVU"
