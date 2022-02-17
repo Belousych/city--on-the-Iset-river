@@ -31,3 +31,7 @@ a {
 .drawer-toggle:checked ~ .drawer-side {
   position: initial;
 }
+
+.hero-content {
+  gap: 2em;
+}

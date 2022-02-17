@@ -34,19 +34,27 @@ export default function Home() {
 
       <div className="hero min-h-screen bg-base-200">
         <div className="flex-col hero-content lg:flex-row-reverse">
-          <Image
-            src="/olly.jpg"
-            width={600}
-            height={600}
-            className="max-w-sm rounded-lg shadow-2xl"
-          />
-          <div>
-            <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+          <div className="flex-shrink-0">
+            <Image
+              src="/olly.jpg"
+              width={600}
+              height={600}
+              className="max-w-sm rounded-lg shadow-2xl"
+            />
+          </div>
+          <div className="prose">
+            <h2 className="mb-5 text-5xl font-bold">Меня зовут Ольга Белоусова.</h2>
             <p className="mb-5">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
-              exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
+              Я - одна из тех жителей Екатеринбурга, которые безумно влюблены в свой город. И
+              однажды решила признаться ему в этом. Так появилась песня «Город на Исети». Музыку к
+              ней написал екатеринбургский музыкант Виктор Солдатов, а исполнил её московский актёр
+              и певец Михаил Мостов. К 300-летию Екатеринбурга возникла идея перевести песню на
+              разные языки, чтобы об одном из самых красивых городов России могли спеть даже те, кто
+              не знает русского языка. Идея вызвала отклик. Уже готовы английская, французская и
+              китайская версии, на очереди - ещё несколько. Наша команда растёт - в ней появляются
+              новые переводчики, исполнители, танцоры. Будем рады, если к ней присоединитесь и вы.
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            {/* <button className="btn btn-primary">Get Started</button> */}
           </div>
         </div>
       </div>
@@ -69,7 +77,7 @@ export default function Home() {
 
         <div className="">
           <div className="py-6 prose">
-            <h1 className="">Город на Исети</h1>
+            <h2 className="">Город на Исети</h2>
             <p>
               Высотки смотрят вверх, <br />
               Меряясь друг с другом этажами, <br />
