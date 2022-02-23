@@ -1,3 +1,5 @@
+import { MusicNoteIcon, UsersIcon } from "@heroicons/react/solid";
+
 const Navbar = () => {
   return (
     <div className="drawer fixed w-full z-40">
@@ -9,25 +11,17 @@ const Navbar = () => {
           </div>
           <div className="flex-none hidden px-2 mx-2 lg:flex">
             <div className="flex items-stretch">
-              <a className="btn btn-ghost btn-sm rounded-btn">Likes</a>
-              <a className="btn btn-ghost btn-sm rounded-btn">Notifications</a>
-              <a className="btn btn-ghost btn-sm rounded-btn">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  className="inline-block w-5 mr-2 stroke-current"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"
-                  ></path>
-                </svg>
-                Files
+              <a className="btn btn-ghost btn-sm rounded-btn" href="#about">
+                О нас
               </a>
-              <a className="btn btn-ghost btn-sm rounded-btn">Config</a>
+              <a className="btn btn-ghost btn-sm rounded-btn" href="#song">
+                <MusicNoteIcon className="h-5 w-5 mr-1" />
+                Песня
+              </a>
+              <a className="btn btn-ghost btn-sm rounded-btn" href="#team">
+                <UsersIcon className="h-5 w-5 mr-1" />
+                Команда
+              </a>
             </div>
           </div>
           <div className="flex-none">
@@ -53,10 +47,21 @@ const Navbar = () => {
         <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
         <ul className="p-4 overflow-y-auto menu w-80 bg-base-100">
           <li>
-            <a>Item 1</a>
+            <a className="" href="#about">
+              О нас
+            </a>
           </li>
           <li>
-            <a>Item 2</a>
+            <a className="" href="#song">
+              <MusicNoteIcon className="h-5 w-5 mr-1" />
+              Песня
+            </a>
+          </li>
+          <li>
+            <a className="" href="#team">
+              <UsersIcon className="h-5 w-5 mr-1" />
+              Команда
+            </a>
           </li>
         </ul>
       </div>
