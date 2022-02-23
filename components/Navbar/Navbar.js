@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className="drawer fixed w-full z-40">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content">
-        <div className="navbar shadow-lg bg-neutral text-neutral-content  z-40 w-full">
+        <div className="navbar shadow-lg bg-neutral text-neutral-content  z-40 w-full text-white">
           <div className="flex-1 px-2 mx-2">
             {/* <span className="text-lg font-bold">daisyUI</span> */}
           </div>
