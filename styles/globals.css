@@ -39,3 +39,7 @@ a {
 .hero-content {
   gap: 2em;
 }
+
+.img-author span {
+  overflow: visible !important;
+}
