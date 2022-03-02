@@ -53,13 +53,13 @@ const Navbar = () => {
           </li>
           <li>
             <a className="" href="#song" data-href="#song">
-              <MusicNoteIcon className="h-5 w-5 mr-1" />
+              <MusicNoteIcon className="h-5 w-5 mr-1 pointer-events-none" />
               Песня
             </a>
           </li>
           <li>
             <a className="" href="#team" data-href="#team">
-              <UsersIcon className="h-5 w-5 mr-1" />
+              <UsersIcon className="h-5 w-5 mr-1 pointer-events-none" />
               Команда
             </a>
           </li>
