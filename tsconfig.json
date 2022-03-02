@@ -29,7 +29,8 @@
       "@/utils/*": ["utils/*"],
       "@/context/*": ["context/*"],
       "@/pages/*": ["pages/*"],
-      "@/machines/*": ["machines/*"]
+      "@/machines/*": ["machines/*"],
+      "@/styles/*": ["styles/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

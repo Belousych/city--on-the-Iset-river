@@ -11,14 +11,14 @@ const Navbar = () => {
           </div>
           <div className="flex-none hidden px-2 mx-2 lg:flex">
             <div className="flex items-stretch">
-              <a className="btn btn-ghost btn-sm rounded-btn" href="#about">
+              <a className="btn btn-ghost btn-sm rounded-btn" href="#about" data-href="#about">
                 О нас
               </a>
-              <a className="btn btn-ghost btn-sm rounded-btn" href="#song">
+              <a className="btn btn-ghost btn-sm rounded-btn" href="#song" data-href="#song">
                 <MusicNoteIcon className="h-5 w-5 mr-1" />
                 Песня
               </a>
-              <a className="btn btn-ghost btn-sm rounded-btn" href="#team">
+              <a className="btn btn-ghost btn-sm rounded-btn" href="#team" data-href="#team">
                 <UsersIcon className="h-5 w-5 mr-1" />
                 Команда
               </a>
@@ -47,18 +47,18 @@ const Navbar = () => {
         <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
         <ul className="p-4 overflow-y-auto menu w-80 bg-base-100">
           <li>
-            <a className="" href="#about">
+            <a className="" href="#about" data-href="#about">
               О нас
             </a>
           </li>
           <li>
-            <a className="" href="#song">
+            <a className="" href="#song" data-href="#song">
               <MusicNoteIcon className="h-5 w-5 mr-1" />
               Песня
             </a>
           </li>
           <li>
-            <a className="" href="#team">
+            <a className="" href="#team" data-href="#team">
               <UsersIcon className="h-5 w-5 mr-1" />
               Команда
             </a>

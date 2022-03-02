@@ -5,5 +5,8 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll.format": true
-  }
+  },
+  "importCost.debug": true,
+  "importCost.timeout": 100000,
+  "typescript.tsdk": "node_modules\\typescript\\lib"
 }
