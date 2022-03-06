@@ -2,15 +2,14 @@ import dynamic from "next/dynamic";
 import Head from "next/head";
 
 // import About from "@/components/Home/About/About";
-// import Hero from "@/components/Home/Hero/Hero";
+import Hero from "@/components/Home/Hero/Hero";
 // import Song from "@/components/Home/Song/Song";
 // import Team from "@/components/Home/Team/Team";
 import Layout from "@/components/Layouts/Layout";
 
-const About = dynamic(() => import("@/components/Home/About/About"));
-const Hero = dynamic(() => import("@/components/Home/Hero/Hero"));
 const Song = dynamic(() => import("@/components/Home/Song/Song"));
 const Team = dynamic(() => import("@/components/Home/Team/Team"));
+const About = dynamic(() => import("@/components/Home/About/About"));
 
 export default function Home() {
   return (

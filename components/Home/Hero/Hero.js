@@ -1,6 +1,5 @@
 import { ArrowDownIcon } from "@heroicons/react/solid";
 import cn from "classnames";
-import Image from "next/image";
 
 import styles from "@/styles/Home.module.css";
 
@@ -8,7 +7,7 @@ const Hero = () => {
   return (
     <div className={cn("hero", "min-h-screen")}>
       <div className={styles.bg}>
-        <Image layout="fill" src="/header2.jpg" priority alt="Екатеринбург" />
+        {/* <Image layout="fill" src="/header2.jpg" priority alt="Екатеринбург" /> */}
       </div>
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="text-center hero-content text-neutral-content text-white">

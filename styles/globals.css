@@ -30,6 +30,14 @@ a {
   margin: auto;
 }
 
+.hero-overlay {
+  z-index: 1;
+}
+
+.hero-content {
+  z-index: 2;
+}
+
 .drawer-toggle ~ .drawer-side {
   position: absolute;
 }

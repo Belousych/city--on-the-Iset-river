@@ -1,4 +1,4 @@
-.hello {
+/* .hello {
   position: relative;
   box-sizing: border-box;
   overflow: hidden;
@@ -9,10 +9,10 @@
   background-image: url("../public/header.jpg");
   background-position: center top;
   background-size: cover;
-}
+} */
 
 .bg {
-  /* background-image: url("../public/header.jpg"); */
+  background-image: url("../public/header2.jpg");
   position: absolute;
   width: 100%;
   height: 100%;
@@ -20,11 +20,9 @@
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: -1;
-}
-
-.hero-overlay {
-  z-index: 0;
+  /* z-index: -1; */
+  background-position: center top;
+  background-size: cover;
 }
 
 .hello:after {
