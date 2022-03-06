@@ -1,11 +1,10 @@
 import Head from "next/head";
 
-
 import About from "@/components/Home/About/About";
 import Hero from "@/components/Home/Hero/Hero";
 import Song from "@/components/Home/Song/Song";
-import Layout from "@/components/Layouts/Layout";
 import Team from "@/components/Home/Team/Team";
+import Layout from "@/components/Layouts/Layout";
 
 export default function Home() {
   return (
@@ -47,8 +46,7 @@ export default function Home() {
       <About />
       <Song />
 
-          <Team />
-      
+      <Team />
     </Layout>
   );
 }

@@ -174,7 +174,7 @@ export default function Team() {
               </div>
               <div className="prose">
                 <p>
-                  <strong>Территория танца</strong> <br /> 
+                  <strong>Территория танца</strong> <br />
                   {/* <i>хореография</i> */}
                 </p>
               </div>
