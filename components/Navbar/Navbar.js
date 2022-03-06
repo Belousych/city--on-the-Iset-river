@@ -1,4 +1,5 @@
 import { MusicNoteIcon, UsersIcon } from "@heroicons/react/solid";
+import Social from "@/components/Social/Social";
 
 const Navbar = () => {
   return (
@@ -8,6 +9,7 @@ const Navbar = () => {
         <div className="navbar shadow-lg bg-neutral text-neutral-content  z-40 w-full text-white">
           <div className="flex-1 px-2 mx-2">
             {/* <span className="text-lg font-bold">daisyUI</span> */}
+              <Social />
           </div>
           <div className="flex-none hidden px-2 mx-2 lg:flex">
             <div className="flex items-stretch">

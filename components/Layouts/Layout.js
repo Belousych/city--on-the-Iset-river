@@ -13,9 +13,9 @@ const Layout = ({ children }) => {
     const scroller = (e) => {
       const href = e.target?.dataset?.href;
       if (href) {
-        e.preventDefault();
+        // e.preventDefault();
         anchorScroller(href, 0.5, 65);
-        return false;
+        // return false;
       }
     };
     document.addEventListener("click", scroller);

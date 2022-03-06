@@ -36,10 +36,18 @@ a {
   position: initial;
 }
 
+.drawer-toggle ~ .drawer-content {
+  z-index: 1;
+}
+
 .hero-content {
   gap: 2em;
 }
 
 .img-author span {
   overflow: visible !important;
+}
+
+.avatar img {
+  object-fit: contain;
 }
