@@ -41,8 +41,8 @@ export default function Song() {
               <h2 className=" text-5xl font-bold mx-auto">Город на Исети</h2>
             </div>
             <div className="flex flex-wrap relative">
-              <div className="grow min-w-fit md:w-3/5">
-                <div className="card-body sticky top-10">
+              <div className="grow min-w-fit md:w-3/6">
+                <div className="card-body sticky top-10 max-w-3xl ml-auto">
                   <iframe
                     loading="lazy"
                     className="w-full aspect-video rounded-lg shadow-lg h-auto"
@@ -56,7 +56,7 @@ export default function Song() {
                   ></iframe>
                 </div>
               </div>
-              <div className="flex-auto md:w-2/5">
+              <div className="flex-auto md:w-3/6">
                 <div className="prose card-body block">
                   <p>
                     Высотки смотрят вверх, <br />
@@ -119,8 +119,8 @@ export default function Song() {
               <h2 className=" text-5xl font-bold mx-auto">Ma chère ville sur l’Isset</h2>
             </div>
             <div className="flex flex-wrap relative">
-              <div className="grow min-w-fit md:w-3/5">
-                <div className="card-body sticky top-10">
+              <div className="grow min-w-fit md:w-3/6">
+                <div className="card-body sticky top-10 max-w-3xl ml-auto">
                   <iframe
                     loading="lazy"
                     className="w-full aspect-video rounded-lg shadow-lg h-auto"
@@ -134,7 +134,7 @@ export default function Song() {
                   ></iframe>
                 </div>
               </div>
-              <div className="flex-auto md:w-2/5">
+              <div className="flex-auto md:w-3/6">
                 <div className="prose card-body block">
                   <p>
                     Les bâtiments vitrés <br />
@@ -189,9 +189,9 @@ export default function Song() {
               <h2 className=" text-5xl font-bold mx-auto">This is Iset river city</h2>
             </div>
             <div className="flex flex-wrap relative">
-              <div className="grow min-w-fit md:w-3/5">
-                <div className="card-body sticky top-10">
-                  <div className="card w-96 bg-base-100 shadow-xl mx-auto">
+              <div className="grow min-w-fit md:w-3/6">
+                <div className="card-body sticky top-10 max-w-3xl ml-auto">
+                  <div className="card w-96 bg-base-100 shadow-xl ml-auto">
                     <figure className="px-10 pt-10">
                       <img src="/audio_en.jpg" alt="City" className="rounded-xl" />
                     </figure>
@@ -212,7 +212,7 @@ export default function Song() {
                   </div>
                 </div>
               </div>
-              <div className="flex-auto md:w-2/5">
+              <div className="flex-auto md:w-3/6">
                 <div className="prose card-body block">
                   <p>
                     I see the high-rise blocks, <br />
