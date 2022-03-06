@@ -189,9 +189,9 @@ export default function Song() {
               <h2 className=" text-5xl font-bold mx-auto">This is Iset river city</h2>
             </div>
             <div className="flex flex-wrap relative">
-              <div className="grow min-w-fit md:w-3/6">
-                <div className="card-body sticky top-10 max-w-3xl ml-auto">
-                  <div className="card w-96 bg-base-100 shadow-xl ml-auto">
+              <div className="grow md:w-3/6 max-w-full">
+                <div className="card-body  sticky top-10 ml-auto">
+                  <div className="card w-96 bg-base-100 shadow-xl ml-auto max-w-full">
                     <figure className="px-10 pt-10">
                       <img src="/audio_en.jpg" alt="City" className="rounded-xl" />
                     </figure>

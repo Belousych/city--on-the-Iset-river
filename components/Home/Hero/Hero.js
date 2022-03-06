@@ -1,11 +1,10 @@
 import { ArrowDownIcon } from "@heroicons/react/solid";
-import cn from "classnames";
 
 import styles from "@/styles/Home.module.css";
 
 const Hero = () => {
   return (
-    <div className={cn("hero", "min-h-screen")}>
+    <div className="hero h-screen relative">
       <div className={styles.bg}>
         {/* <Image layout="fill" src="/header2.jpg" priority alt="Екатеринбург" /> */}
       </div>

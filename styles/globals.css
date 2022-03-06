@@ -61,3 +61,7 @@ a {
 .avatar img {
   object-fit: contain;
 }
+
+.text-white svg {
+  fill: #fff;
+}
