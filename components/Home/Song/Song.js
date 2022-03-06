@@ -193,7 +193,7 @@ export default function Song() {
                 <div className="card-body sticky top-10">
                   <div className="card w-96 bg-base-100 shadow-xl mx-auto">
                     <figure className="px-10 pt-10">
-                      <img src="/audio_en.jpg" alt="Shoes" className="rounded-xl" />
+                      <img src="/audio_en.jpg" alt="City" className="rounded-xl" />
                     </figure>
                     <div className="card-body items-center text-center">
                       <h2 className="card-title">Listen!</h2>
