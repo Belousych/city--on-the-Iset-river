@@ -3,7 +3,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="hero py-10 bg-base-200" id="about">
+    <div className="hero py-10" id="about">
       <div className="flex-col hero-content lg:flex-row-reverse">
         <div className="flex-shrink-0 img-author">
           <Image
