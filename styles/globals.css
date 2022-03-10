@@ -10,6 +10,8 @@ body {
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
   background: aliceblue;
+
+  @apply text-slate-800;
 }
 
 body {
