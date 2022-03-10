@@ -144,8 +144,7 @@ export default function Song() {
                     <br />
                     Qui tombe des pommiers déjà fleuris.
                     <br />
-                    J’aurais dû remarquer
-                    <br />
+                    J’aurais dû remarquer <br />
                     Qu’on a avancé tellement en âge,
                     <br />
                     Au bout de ces années
@@ -156,15 +155,27 @@ export default function Song() {
                   <p>
                     <i>Refrain: </i>
                     <br />
-                    Ma chère ville sur l’Isset Qui pour moi est une vedette, Loin de toi je rêve de
-                    tes belles lumières, C’est une ville sur l’Isset Où j’ai eu la chance parfaite
+                    Ma chère ville sur l’Isset
+                    <br />
+                    Qui pour moi est une vedette,
+                    <br />
+                    Loin de toi je rêve de tes belles lumières,
+                    <br />
+                    C’est une ville sur l’Isset
+                    <br />
+                    Où j’ai eu la chance parfaite
+                    <br />
                     De passer ma vie entière !
                   </p>
 
                   <p>
-                    Il y a tellement de villes Qui sont pour moi lointaines et étrangères, Tellement
-                    de capitales Qui m’oublient et qui sont oubliées. Il est pourtant facile De
-                    reconnaître le visage si cher Et je retrouve les dalles De cet ancien pavé.
+                    Il y a tellement de villes
+                    <br /> Qui sont pour moi lointaines et étrangères, <br /> Tellement de capitales
+                    <br />
+                    Qui m’oublient et qui sont oubliées.
+                    <br /> Il est pourtant facile <br />
+                    De reconnaître le visage si cher <br /> Et je retrouve les dalles <br />
+                    De cet ancien pavé.
                   </p>
 
                   <p>
@@ -172,9 +183,15 @@ export default function Song() {
                   </p>
 
                   <p>
-                    C’est là où je voudrais Me ballader sur les boulevards déserts, Où je peux
-                    rencontrer Les mêmes visages que je reconnais, C’est là qu’on peut trouver Ceux
-                    pour qui Sverdlovsk est toujours cher Et Ekaterinbourg est également aimé.
+                    C’est là où je voudrais <br />
+                    Me ballader sur les boulevards déserts,
+                    <br />
+                    Où je peux rencontrer <br />
+                    Les mêmes visages que je reconnais, <br />
+                    C’est là qu’on peut trouver
+                    <br />
+                    Ceux pour qui Sverdlovsk est toujours cher <br />
+                    Et Ekaterinbourg est également aimé.
                   </p>
 
                   <p>
