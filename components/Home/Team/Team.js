@@ -6,7 +6,7 @@ export default function Team() {
     <div className="py-10" id="team">
       <div className="md:container md:mx-auto">
         <div className="text-center mb-5">
-          <h2 className=" text-5xl font-bold mx-auto">Мы</h2>
+          <h2 className=" text-5xl font-bold mx-auto">Наша команда</h2>
         </div>
 
         <div className="flex flex-wrap justify-center py-10  gap-10 text-center">
