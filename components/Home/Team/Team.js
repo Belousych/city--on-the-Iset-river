@@ -203,6 +203,25 @@ export default function Team() {
               </div>
             </a>
           </div>
+
+          <div className="flex flex-col w-56">
+            <div className="avatar mx-auto mb-2">
+              <div className="mask mask-hexagon">
+                <Image
+                  src="/team_8.jpg"
+                  width={200}
+                  height={200}
+                  className="rounded-full object-center object-contain"
+                  alt="Василий Белоусов"
+                />
+              </div>
+            </div>
+            <div className="prose">
+              <p>
+                <strong>Василий Белоусов</strong> <br /> <i>создание сайта</i>
+              </p>
+            </div>
+          </div>
         </div>
 
         <div className="mx-auto text-center">
