@@ -15,7 +15,7 @@ const Navbar = () => {
           <div className="flex-none hidden px-2 mx-2 lg:flex">
             <div className="flex items-stretch">
               <a className="btn btn-ghost btn-sm rounded-btn" href="#about" data-href="#about">
-                О нас
+                О проекте
               </a>
               <a className="btn btn-ghost btn-sm rounded-btn" href="#song" data-href="#song">
                 <MusicNoteIcon className="h-5 w-5 mr-1" />
@@ -23,7 +23,7 @@ const Navbar = () => {
               </a>
               <a className="btn btn-ghost btn-sm rounded-btn" href="#team" data-href="#team">
                 <UsersIcon className="h-5 w-5 mr-1" />
-                Команда
+                Мы
               </a>
             </div>
           </div>
@@ -51,7 +51,7 @@ const Navbar = () => {
         <ul className="p-4 overflow-y-auto menu w-80 bg-base-100">
           <li>
             <a className="" href="#about" data-href="#about">
-              О нас
+              О проекте
             </a>
           </li>
           <li>
@@ -63,7 +63,7 @@ const Navbar = () => {
           <li>
             <a className="" href="#team" data-href="#team">
               <UsersIcon className="h-5 w-5 mr-1 pointer-events-none" />
-              Команда
+              Мы
             </a>
           </li>
         </ul>
