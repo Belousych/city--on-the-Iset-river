@@ -1,7 +1,5 @@
 import React from "react";
 
-import Fb from "@/components/Icons/Fb";
-import Insta from "@/components/Icons/Insta";
 import Vk from "@/components/Icons/Vk";
 import Whatsapp from "@/components/Icons/Whatsapp";
 
