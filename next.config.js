@@ -1,3 +1,5 @@
+const SERVER_URL = process.env.SERVER_URL || "https://iset-city-admin.herokuapp.com/";
+
 module.exports = {
   reactStrictMode: true,
 
@@ -8,15 +10,9 @@ module.exports = {
   },
   images: {
     formats: ["image/avif", "image/webp"],
+    domains: ["res.cloudinary.com"],
   },
-  // async rewrites() {
-  //     return [
-  //         {
-  //             source: "/api/:path*",
-  //             destination: `${RIDERO_SERVER_API_URL}/:path*`,
-  //             basePath: false,
-  //         },
-  //     ];
-  // },
-  publicRuntimeConfig: {},
+  publicRuntimeConfig: {
+    SERVER_URL,
+  },
 };
