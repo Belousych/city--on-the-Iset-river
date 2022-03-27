@@ -1,7 +1,5 @@
 import React from "react";
 
-import Fb from "@/components/Icons/Fb";
-import Insta from "@/components/Icons/Insta";
 import Vk from "@/components/Icons/Vk";
 import Whatsapp from "@/components/Icons/Whatsapp";
 
@@ -9,7 +7,7 @@ export default function Social() {
   return (
     <div>
       <ul className="flex text-4xl gap-4 text-white dark:text-black">
-        <li>
+        {/* <li>
           <a href="https://www.facebook.com/olga.beshtau" target="_blank" rel="noopener noreferrer">
             <Fb />
           </a>
@@ -22,7 +20,7 @@ export default function Social() {
           >
             <Insta />
           </a>
-        </li>
+        </li> */}
         <li>
           <a href="https://vk.com/olga_beshtau" target="_blank" rel="noopener noreferrer">
             <Vk />
