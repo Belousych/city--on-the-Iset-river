@@ -53,11 +53,6 @@ export default function Home(props) {
       </Head>
       <Query query={LANDING_QUERY}>
         {({ data }) => {
-          console.log(
-            'AAAAA <div className="TEST">{data.isetLanding.data.attributes.title}</div>',
-            data
-          );
-
           return (
             <>
               <Hero
