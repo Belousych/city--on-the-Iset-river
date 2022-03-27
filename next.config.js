@@ -1,4 +1,4 @@
-const SERVER_URL = process.env.SERVER_URL || "https://iset-city-admin.herokuapp.com/";
+const SERVER_URL = process.env.SERVER_URL || "https://iset-city-admin.herokuapp.com";
 
 module.exports = {
   reactStrictMode: true,

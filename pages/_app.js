@@ -1,13 +1,14 @@
 import { ApolloProvider } from "@apollo/react-hooks";
 import PropTypes from "prop-types";
 
-import withData from "@/utils/apollo";
+import { useApollo } from "@/utils/apollo";
 
 import "../styles/globals.css";
 
-function MyApp({ Component, pageProps, apollo }) {
+function MyApp({ Component, pageProps }) {
+  const apolloClient = useApollo(pageProps);
   return (
-    <ApolloProvider client={apollo}>
+    <ApolloProvider client={apolloClient}>
       <Component {...pageProps} />
     </ApolloProvider>
   );
@@ -19,4 +20,4 @@ MyApp.propTypes = {
   apollo: PropTypes.any,
 };
 
-export default withData(MyApp);
+export default MyApp;

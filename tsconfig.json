@@ -26,6 +26,7 @@
       "@/components/*": ["components/*"],
       "@/hooks/*": ["hooks/*"],
       "@/api/*": ["api/*"],
+      "@/apollo/*": ["apollo/*"],
       "@/utils/*": ["utils/*"],
       "@/context/*": ["context/*"],
       "@/pages/*": ["pages/*"],

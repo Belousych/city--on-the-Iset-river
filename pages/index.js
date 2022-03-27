@@ -1,3 +1,4 @@
+import LANDING_QUERY from "@/apollo/queries/song-landing/landing";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 
@@ -6,12 +7,16 @@ import Hero from "@/components/Home/Hero/Hero";
 // import Song from "@/components/Home/Song/Song";
 // import Team from "@/components/Home/Team/Team";
 import Layout from "@/components/Layouts/Layout";
+import Query from "@/components/query";
+
+import { addApolloState, initializeApollo } from "@/utils/apollo";
 
 const Song = dynamic(() => import("@/components/Home/Song/Song"));
 const Team = dynamic(() => import("@/components/Home/Team/Team"));
 const About = dynamic(() => import("@/components/Home/About/About"));
 
-export default function Home() {
+export default function Home(props) {
+  console.log("PROPS", props);
   return (
     <Layout>
       <Head>
@@ -46,19 +51,47 @@ export default function Home() {
           content="https://iset.city/_ipx/w_640,q_75/%2Fheader2.jpg?url=%2Fheader2.jpg&w=640&q=75"
         />
       </Head>
+      <Query query={LANDING_QUERY}>
+        {({ data }) => {
+          console.log(
+            'AAAAA <div className="TEST">{data.isetLanding.data.attributes.title}</div>',
+            data
+          );
 
-      <Hero />
+          return (
+            <>
+              <Hero
+                title={data?.isetLanding?.data?.attributes?.title}
+                subtitle={data?.isetLanding?.data?.attributes?.subtitle}
+                background={data?.isetLanding?.data?.attributes?.background}
+              />
 
-      <About />
-      <Song />
+              <About
+                aboutTitle={data?.isetLanding?.data?.attributes?.aboutTitle}
+                aboutText={data?.isetLanding?.data?.attributes?.aboutText}
+                avatar={data?.isetLanding?.data?.attributes?.avatar}
+                aboutPS={data?.isetLanding?.data?.attributes?.aboutPS}
+              />
+              <Song items={data?.songs?.data} />
 
-      <Team />
+              <Team />
+            </>
+          );
+        }}
+      </Query>
     </Layout>
   );
 }
 
-export async function getStaticProps(context) {
-  return {
-    props: {}, // will be passed to the page component as props
-  };
+export async function getStaticProps() {
+  const apolloClient = initializeApollo();
+
+  await apolloClient.query({
+    query: LANDING_QUERY,
+  });
+
+  return addApolloState(apolloClient, {
+    props: {},
+    revalidate: 1,
+  });
 }
