@@ -49,7 +49,7 @@ const LANDING_QUERY = gql`
       }
     }
 
-    teams {
+    teams(sort: "id:asc", pagination: { start: 0, limit: 100 }) {
       data {
         id
         attributes {

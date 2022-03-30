@@ -16,7 +16,6 @@ const Team = dynamic(() => import("@/components/Home/Team/Team"));
 const About = dynamic(() => import("@/components/Home/About/About"));
 
 export default function Home(props) {
-  console.log("PROPS", props);
   return (
     <Layout>
       <Head>
@@ -69,7 +68,7 @@ export default function Home(props) {
               />
               <Song items={data?.songs?.data} />
 
-              <Team />
+              <Team items={data?.teams?.data} />
             </>
           );
         }}

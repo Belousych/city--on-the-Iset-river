@@ -47,7 +47,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="drawer-side min-h-screen">
-        <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
+        <label htmlFor="my-drawer-3" className="drawer-overlay z-10"></label>
         <ul className="p-4 overflow-y-auto menu w-80 bg-base-100">
           <li>
             <a className="" href="#about" data-href="#about">

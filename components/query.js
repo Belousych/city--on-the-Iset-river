@@ -11,6 +11,6 @@ const Query = ({ children, query }) => {
 
 Query.propTypes = {
   children: PropTypes.func,
-  query: PropTypes.string,
+  query: PropTypes.object,
 };
 export default Query;

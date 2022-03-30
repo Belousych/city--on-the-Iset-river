@@ -1,7 +1,11 @@
 import Image from "next/image";
+import PropTypes from "prop-types";
 import React from "react";
 
-export default function Team() {
+function Team({ items }) {
+  if (!items || items.length === 0) {
+    return null;
+  }
   return (
     <div className="py-10" id="team">
       <div className="md:container md:mx-auto">
@@ -10,7 +14,49 @@ export default function Team() {
         </div>
 
         <div className="flex flex-wrap justify-center py-10  gap-10 text-center">
-          <div className="flex flex-col w-56">
+          {items.map((item) => (
+            <div className="flex flex-col w-56" key={item.id}>
+              {item?.attributes?.link ? (
+                <a
+                  href="https://vk.com/ekaterinboogie"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="relative mb-2 "
+                >
+                  <div className="avatar mx-auto">
+                    <div className="mask mask-hexagon bg-black">
+                      <Image
+                        src={item?.attributes?.avatar?.data?.attributes?.url}
+                        width={200}
+                        height={200}
+                        className="rounded-full object-center object-contain"
+                        alt={item?.attributes?.Name}
+                      />
+                    </div>
+                  </div>
+                </a>
+              ) : (
+                <div className="avatar mx-auto mb-2">
+                  <div className="mask mask-hexagon bg-black">
+                    <Image
+                      src={item?.attributes?.avatar?.data?.attributes?.url}
+                      width={200}
+                      height={200}
+                      className="rounded-full object-center object-contain"
+                      alt={item?.attributes?.Name}
+                    />
+                  </div>
+                </div>
+              )}
+
+              <div className="prose">
+                <p>
+                  <strong>{item?.attributes?.Name}</strong> <br /> <i>{item?.attributes?.role}</i>
+                </p>
+              </div>
+            </div>
+          ))}
+          {/* <div className="flex flex-col w-56">
             <div className="avatar mx-auto mb-2">
               <div className="mask mask-hexagon">
                 <Image
@@ -175,7 +221,7 @@ export default function Team() {
               <div className="prose">
                 <p>
                   <strong>Территория танца</strong> <br />
-                  {/* <i>хореография</i> */}
+                  {/* <i>хореография</i> 
                 </p>
               </div>
             </a>
@@ -198,7 +244,7 @@ export default function Team() {
                   <strong>
                     Театральная студия <br /> Новый старт
                   </strong>{" "}
-                  <br /> {/* <i>перевод на китайский язык, исполнение на китайском языке</i> */}
+                  <br /> {/* <i>перевод на китайский язык, исполнение на китайском языке</i> *
                 </p>
               </div>
             </a>
@@ -221,7 +267,7 @@ export default function Team() {
                 <strong>Василий Белоусов</strong> <br /> <i>создание сайта</i>
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="mx-auto text-center">
@@ -231,3 +277,9 @@ export default function Team() {
     </div>
   );
 }
+
+Team.propTypes = {
+  items: PropTypes.array,
+};
+
+export default Team;
