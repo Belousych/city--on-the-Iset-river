@@ -4,6 +4,14 @@ module.exports = {
   reactStrictMode: true,
 
   trailingSlash: true,
+  async rewrites() {
+    return [
+      {
+        source: "/admin/",
+        destination: `${SERVER_URL}/admin`,
+      },
+    ];
+  },
 
   experimental: {
     scrollRestoration: true,
