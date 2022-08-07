@@ -10,7 +10,9 @@ const anchorScroller = (href, speed, offsetTop = 125) => {
   let hash;
   if (isNaN(href)) {
     hash = href.replace(/[^#]*(.*)/, "$1"); // id элемента, к которому нужно перейти
-    t = document.querySelector(hash).getBoundingClientRect().top - headerHeight;
+    t =
+      document.querySelector(hash) &&
+      document.querySelector(hash).getBoundingClientRect().top - headerHeight;
   } else {
     t = href - headerHeight;
   }

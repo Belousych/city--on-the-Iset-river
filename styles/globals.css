@@ -67,3 +67,19 @@ a {
 .text-white svg {
   fill: #fff;
 }
+
+#team,
+#song,
+#about {
+  /* scroll-padding-top: 120px; */
+  padding-top: 64px;
+}
+
+.link {
+  text-decoration: underline;
+  @apply text-primary;
+}
+
+.link:hover {
+  text-decoration: none;
+}

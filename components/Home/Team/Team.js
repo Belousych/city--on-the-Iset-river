@@ -56,7 +56,6 @@ function Team({ items }) {
               </div>
             </div>
           ))}
-        
         </div>
 
         <div className="mx-auto text-center">

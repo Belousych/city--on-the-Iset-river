@@ -4,11 +4,12 @@ module.exports = {
   reactStrictMode: true,
 
   trailingSlash: true,
-  async rewrites() {
+  async redirects() {
     return [
       {
         source: "/admin/",
         destination: `${SERVER_URL}/admin`,
+        permanent: true,
       },
     ];
   },

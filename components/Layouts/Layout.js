@@ -12,6 +12,7 @@ const Layout = ({ children }) => {
   useEffect(() => {
     const scroller = (e) => {
       const href = e.target?.dataset?.href;
+
       if (href) {
         // e.preventDefault();
         anchorScroller(href, 0.5, 65);
@@ -48,7 +49,7 @@ const Layout = ({ children }) => {
       <main className={styles.main}>
         <Navbar />
 
-        <div className="">{children}</div>
+        <div className={styles.content}>{children}</div>
       </main>
 
       <footer className={styles.footer}>

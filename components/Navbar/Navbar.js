@@ -1,8 +1,13 @@
 import { MusicNoteIcon, UsersIcon } from "@heroicons/react/solid";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 import Social from "@/components/Social/Social";
 
 const Navbar = () => {
+  const { route } = useRouter();
+  const isMain = route === "/";
+
   return (
     <div className="drawer fixed w-full z-40">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
@@ -14,17 +19,43 @@ const Navbar = () => {
           </div>
           <div className="flex-none hidden px-2 mx-2 lg:flex">
             <div className="flex items-stretch">
-              <a className="btn btn-ghost btn-sm rounded-btn" href="#about" data-href="#about">
-                О проекте
-              </a>
-              <a className="btn btn-ghost btn-sm rounded-btn" href="#song" data-href="#song">
-                <MusicNoteIcon className="h-5 w-5 mr-1" />
-                Песня
-              </a>
-              <a className="btn btn-ghost btn-sm rounded-btn" href="#team" data-href="#team">
-                <UsersIcon className="h-5 w-5 mr-1" />
-                Мы
-              </a>
+              {isMain ? (
+                <>
+                  <a className="btn btn-ghost btn-sm rounded-btn" href="#about" data-href="#about">
+                    О проекте
+                  </a>
+                  <a className="btn btn-ghost btn-sm rounded-btn" href="#song" data-href="#song">
+                    <MusicNoteIcon className="h-5 w-5 mr-1" />
+                    Песня
+                  </a>
+                  <a className="btn btn-ghost btn-sm rounded-btn" href="#team" data-href="#team">
+                    <UsersIcon className="h-5 w-5 mr-1" />
+                    Мы
+                  </a>
+                </>
+              ) : (
+                <>
+                  <Link href="/#about" scroll={false}>
+                    <a className="btn btn-ghost btn-sm rounded-btn">О проекте</a>
+                  </Link>
+                  <Link href="/#song" scroll={false}>
+                    <a className="btn btn-ghost btn-sm rounded-btn">
+                      <MusicNoteIcon className="h-5 w-5 mr-1" />
+                      Песня
+                    </a>
+                  </Link>
+                  <Link href="/#team" scroll={false}>
+                    <a className="btn btn-ghost btn-sm rounded-btn">
+                      <UsersIcon className="h-5 w-5 mr-1" />
+                      Мы
+                    </a>
+                  </Link>
+                </>
+              )}
+
+              {/* <Link href="/blog">
+                <a className="btn btn-ghost btn-sm rounded-btn">Блог</a>
+              </Link> */}
             </div>
           </div>
           <div className="flex-none">
@@ -49,23 +80,51 @@ const Navbar = () => {
       <div className="drawer-side min-h-screen">
         <label htmlFor="my-drawer-3" className="drawer-overlay z-10"></label>
         <ul className="p-4 overflow-y-auto menu w-80 bg-base-100">
-          <li>
-            <a className="" href="#about" data-href="#about">
-              О проекте
-            </a>
-          </li>
-          <li>
-            <a className="" href="#song" data-href="#song">
-              <MusicNoteIcon className="h-5 w-5 mr-1 pointer-events-none" />
-              Песня
-            </a>
-          </li>
-          <li>
-            <a className="" href="#team" data-href="#team">
-              <UsersIcon className="h-5 w-5 mr-1 pointer-events-none" />
-              Мы
-            </a>
-          </li>
+          {isMain ? (
+            <>
+              <li>
+                <a className="" href="#about" data-href="#about">
+                  О проекте
+                </a>
+              </li>
+              <li>
+                <a className="" href="#song" data-href="#song">
+                  <MusicNoteIcon className="h-5 w-5 mr-1 pointer-events-none" />
+                  Песня
+                </a>
+              </li>
+              <li>
+                <a className="" href="#team" data-href="#team">
+                  <UsersIcon className="h-5 w-5 mr-1 pointer-events-none" />
+                  Мы
+                </a>
+              </li>
+            </>
+          ) : (
+            <>
+              <li>
+                <Link href="/#about" scroll={false}>
+                  <a className="">О проекте</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/#song" scroll={false}>
+                  <a className="">
+                    <MusicNoteIcon className="h-5 w-5 mr-1 pointer-events-none" />
+                    Песня
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/#team" scroll={false}>
+                  <a className="">
+                    <UsersIcon className="h-5 w-5 mr-1 pointer-events-none" />
+                    Мы
+                  </a>
+                </Link>
+              </li>
+            </>
+          )}
         </ul>
       </div>
     </div>
