@@ -2,7 +2,7 @@ import { gql } from "@apollo/client";
 
 const POSTS = gql`
   query Post {
-    posts(sort: "publishedAt:desc", pagination: { start: 0, limit: 100 }) {
+    posts(sort: "publishedAt:desc", pagination: { start: 0, limit: 1000 }) {
       data {
         id
 
@@ -38,7 +38,7 @@ const POSTS = gql`
 
 const POSTSID = gql`
   query Post {
-    posts(sort: "id:asc", pagination: { start: 0, limit: 100 }) {
+    posts(sort: "id:asc", pagination: { start: 0, limit: 1000 }) {
       data {
         id
       }
@@ -48,7 +48,7 @@ const POSTSID = gql`
 
 const POSTSSLUG = gql`
   query Post {
-    posts(pagination: { start: 0, limit: 100 }) {
+    posts(pagination: { start: 0, limit: 1000 }) {
       data {
         attributes {
           slug
