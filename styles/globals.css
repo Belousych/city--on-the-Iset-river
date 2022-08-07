@@ -83,3 +83,7 @@ a {
 .link:hover {
   text-decoration: none;
 }
+
+.hover-opacity-100:hover > div {
+  opacity: 1;
+}

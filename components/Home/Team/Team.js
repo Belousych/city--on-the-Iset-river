@@ -23,8 +23,9 @@ function Team({ items }) {
                   rel="noopener noreferrer"
                   className="relative mb-2 "
                 >
-                  <div className="avatar mx-auto">
-                    <div className="mask mask-hexagon bg-black">
+                  <div className="avatar mx-auto hover-opacity-100">
+                    <div className="mask mask-hexagon bg-primary absolute w-[104%] h-[104%] top-[-2%] left-[-2%] opacity-30"></div>
+                    <div className="mask mask-hexagon bg-primary">
                       <Image
                         src={item?.attributes?.avatar?.data?.attributes?.url}
                         width={200}
@@ -37,7 +38,7 @@ function Team({ items }) {
                 </a>
               ) : (
                 <div className="avatar mx-auto mb-2">
-                  <div className="mask mask-hexagon bg-black">
+                  <div className="mask mask-hexagon bg-primary">
                     <Image
                       src={item?.attributes?.avatar?.data?.attributes?.url}
                       width={200}
