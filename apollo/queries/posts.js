@@ -2,7 +2,7 @@ import { gql } from "@apollo/client";
 
 const POSTS = gql`
   query Post {
-    posts(sort: "publishedAt:desc", pagination: { start: 0, limit: 1000 }) {
+    posts(sort: "Date:desc", pagination: { start: 0, limit: 1000 }) {
       data {
         id
 

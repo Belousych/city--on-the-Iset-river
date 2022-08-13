@@ -49,13 +49,14 @@ const LANDING_QUERY = gql`
       }
     }
 
-    teams(sort: "id:asc", pagination: { start: 0, limit: 100 }) {
+    teams(sort: "sortOrder:asc", pagination: { start: 0, limit: 100 }) {
       data {
         id
         attributes {
           Name
           role
           link
+          sortOrder
           avatar {
             data {
               id
