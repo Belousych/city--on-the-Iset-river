@@ -18,9 +18,7 @@ function Card({ title, images, description, id, ...rest }) {
           <div className="card-body">
             <h2 className="card-title">{title}</h2>
             <p>{description}</p>
-            <div className="card-actions justify-betwen">
-              {formatDate(new Date(rest.publishedAt))}
-            </div>
+            <div className="card-actions justify-betwen">{formatDate(new Date(rest.Date))}</div>
           </div>
         </div>
       </a>
