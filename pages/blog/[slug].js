@@ -1,5 +1,6 @@
 import { GETPOSTBYSLUG } from "@/apollo/queries/post";
 import { POSTSSLUG } from "@/apollo/queries/posts";
+import Head from "next/head";
 import PropTypes from "prop-types";
 import React from "react";
 
@@ -13,10 +14,30 @@ import markdownToHtml from "@/utils/markdownToHtml";
 const Post = ({ slug, content }) => {
   return (
     <Layout>
-      <div className="py-32 px-20">
+      <div className="py-32 px-3 lg:px-20">
         <Query query={GETPOSTBYSLUG} variables={{ slug: slug }}>
           {({ data }) => {
-            return <Article post={data.posts.data[0].attributes} content={content} />;
+            return (
+              <>
+                <Head>
+                  <title>Город на Исети - Новости - {data.posts.data[0].attributes.title}</title>
+
+                  <meta property="og:title" content={data.posts.data[0].attributes.title} />
+
+                  <meta property="og:locale" content="ru_RU" />
+
+                  <meta property="og:type" content="website" />
+
+                  <meta name="description" content={data.posts.data[0].attributes.description} />
+
+                  <meta
+                    property="og:description"
+                    content={data.posts.data[0].attributes.description}
+                  />
+                </Head>
+                <Article post={data.posts.data[0].attributes} content={content} />;
+              </>
+            );
           }}
         </Query>
       </div>

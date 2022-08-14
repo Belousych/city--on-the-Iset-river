@@ -10,7 +10,7 @@ import { addApolloState, initializeApollo } from "@/utils/apollo";
 const Blog = () => {
   return (
     <Layout>
-      <div className="py-32 px-20">
+      <div className="py-32 px-3 lg:px-20">
         <Query query={POSTS}>
           {({ data }) => {
             return (

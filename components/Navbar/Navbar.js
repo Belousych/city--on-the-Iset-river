@@ -53,9 +53,9 @@ const Navbar = () => {
                 </>
               )}
 
-              {/* <Link href="/blog">
-                <a className="btn btn-ghost btn-sm rounded-btn">Блог</a>
-              </Link> */}
+              <Link href="/blog">
+                <a className="btn btn-ghost btn-sm rounded-btn">Новости</a>
+              </Link>
             </div>
           </div>
           <div className="flex-none">
@@ -125,6 +125,12 @@ const Navbar = () => {
               </li>
             </>
           )}
+
+          <li>
+            <Link href="/blog">
+              <a className="">Новости</a>
+            </Link>
+          </li>
         </ul>
       </div>
     </div>

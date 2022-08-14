@@ -9,7 +9,7 @@ function Song({ items }) {
     return null;
   }
   return (
-    <div className="py-10" id="song">
+    <div className="py-10 overflow-hidden overflow-x-auto" id="song">
       <Tab.Group>
         <div className="mx-auto pb-10 text-center">
           <Tab.List
@@ -31,10 +31,12 @@ function Song({ items }) {
           {items.map((item) => (
             <Tab.Panel key={item.id}>
               <div className="text-center mb-5">
-                <h2 className=" text-5xl font-bold mx-auto">{item?.attributes?.Header}</h2>
+                <h2 className="lg:text-5xl text-3xl font-bold mx-auto">
+                  {item?.attributes?.Header}
+                </h2>
               </div>
               <div className="flex flex-wrap relative">
-                <div className="grow min-w-fit md:w-3/6">
+                <div className="grow md:w-3/6 max-w-full">
                   {item?.attributes?.videoUrl && (
                     <div className="card-body sticky top-10 max-w-3xl ml-auto">
                       <iframe

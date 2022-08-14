@@ -17,7 +17,7 @@ const Hero = ({ title, subtitle, background }) => {
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="text-center hero-content text-neutral-content text-white">
         <div className="max-w-md">
-          <h1 className="mb-5 text-5xl font-bold max-w-[390]">
+          <h1 className="mb-5 lg:text-5xl text-4xl font-bold max-w-[390]">
             {title}
             {/* Здравствуй, <br /> город на Исети! */}
           </h1>
