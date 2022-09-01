@@ -15,6 +15,9 @@ const Layout = ({ children }) => {
 
       if (href) {
         // e.preventDefault();
+        const check = document.getElementById("my-drawer-3");
+
+        check.checked = false;
         anchorScroller(href, 0.5, 65);
         // return false;
       }
