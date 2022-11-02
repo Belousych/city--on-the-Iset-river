@@ -1,10 +1,15 @@
 import { Tab } from "@headlessui/react";
 import PropTypes from "prop-types";
-import { Fragment } from "react";
+import { Fragment, useEffect, useState } from "react";
 
 import { createMarkup } from "@/utils/utils";
 
 function Song({ items }) {
+  const [mount, setMount] = useState(null);
+  useEffect(() => {
+    setMount(true);
+  }, []);
+
   if (!items || items.length === 0) {
     return null;
   }
@@ -39,17 +44,19 @@ function Song({ items }) {
                 <div className="grow md:w-3/6 max-w-full">
                   {item?.attributes?.videoUrl && (
                     <div className="card-body sticky top-10 max-w-3xl ml-auto">
-                      <iframe
-                        loading="lazy"
-                        className="w-full aspect-video rounded-lg shadow-lg h-auto"
-                        width="560"
-                        height="315"
-                        src={item?.attributes?.videoUrl}
-                        title="YouTube video player"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                      ></iframe>
+                      {mount && (
+                        <iframe
+                          loading="lazy"
+                          className="w-full aspect-video rounded-lg shadow-lg h-auto"
+                          width="560"
+                          height="315"
+                          src={item?.attributes?.videoUrl}
+                          title="YouTube video player"
+                          frameBorder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen
+                        />
+                      )}
                     </div>
                   )}
 
