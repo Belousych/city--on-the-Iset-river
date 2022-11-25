@@ -30,7 +30,7 @@ const LANDING_QUERY = gql`
         }
       }
     }
-    songs(sort: "id:asc") {
+    songs(sort: "id:asc", pagination: { start: 0, limit: 265 }) {
       data {
         id
         attributes {
