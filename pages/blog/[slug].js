@@ -92,7 +92,7 @@ export async function getStaticProps({ params }) {
       slug: params.slug,
       content,
     },
-    revalidate: 1,
+    revalidate: 60,
   });
 }
 

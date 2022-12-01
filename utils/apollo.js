@@ -18,6 +18,16 @@ function createApolloClient(initialState) {
       uri: `${SERVER_URL}/graphql`,
     }),
     cache: new InMemoryCache().restore(initialState || {}),
+    defaultOptions: {
+      watchQuery: {
+        fetchPolicy: "no-cache",
+        errorPolicy: "ignore",
+      },
+      query: {
+        fetchPolicy: "no-cache",
+        errorPolicy: "all",
+      },
+    },
   });
 }
 
