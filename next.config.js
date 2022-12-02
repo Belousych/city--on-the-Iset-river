@@ -1,4 +1,4 @@
-const SERVER_URL = process.env.SERVER_URL || "https://iset-city-admin-production.up.railway.app/";
+const SERVER_URL = process.env.SERVER_URL || "https://iset-city-admin-production.up.railway.app";
 
 module.exports = {
   reactStrictMode: true,
