@@ -1,6 +1,7 @@
 import LANDING_QUERY from "@/apollo/queries/song-landing/landing";
 import dynamic from "next/dynamic";
 import Head from "next/head";
+import PropTypes from "prop-types";
 
 // import About from "@/components/Home/About/About";
 import Hero from "@/components/Home/Hero/Hero";
@@ -10,12 +11,13 @@ import Layout from "@/components/Layouts/Layout";
 import Query from "@/components/query";
 
 import { addApolloState, initializeApollo } from "@/utils/apollo";
+import markdownToHtml from "@/utils/markdownToHtml";
 
 const Song = dynamic(() => import("@/components/Home/Song/Song"));
 const Team = dynamic(() => import("@/components/Home/Team/Team"));
 const About = dynamic(() => import("@/components/Home/About/About"));
 
-export default function Home(props) {
+export default function Home({ songTexts }) {
   return (
     <Layout>
       <Head>
@@ -66,7 +68,7 @@ export default function Home(props) {
                 avatar={data?.isetLanding?.data?.attributes?.avatar}
                 aboutPS={data?.isetLanding?.data?.attributes?.aboutPS}
               />
-              <Song items={data?.songs?.data} />
+              <Song items={data?.songs?.data} songTexts={songTexts} />
 
               <Team items={data?.teams?.data} />
             </>
@@ -77,15 +79,27 @@ export default function Home(props) {
   );
 }
 
+Home.propTypes = {
+  songTexts: PropTypes.array,
+};
+
 export async function getStaticProps() {
   const apolloClient = initializeApollo();
 
-  await apolloClient.query({
-    query: LANDING_QUERY,
-  });
+  const contentPageSongs = await apolloClient
+    .query({
+      query: LANDING_QUERY,
+    })
+    .then((res) => res?.data?.songs?.data || []);
+
+  const promises = contentPageSongs.map((songItem) => markdownToHtml(songItem.attributes.Text));
+
+  const songTexts = await Promise.all(promises);
 
   return addApolloState(apolloClient, {
-    props: {},
+    props: {
+      songTexts,
+    },
     revalidate: 60,
   });
 }

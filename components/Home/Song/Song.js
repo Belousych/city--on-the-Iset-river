@@ -4,7 +4,7 @@ import { Fragment, useEffect, useState } from "react";
 
 import { createMarkup } from "@/utils/utils";
 
-function Song({ items }) {
+function Song({ items, songTexts }) {
   const [mount, setMount] = useState(null);
   useEffect(() => {
     setMount(true);
@@ -33,7 +33,7 @@ function Song({ items }) {
           </Tab.List>
         </div>
         <Tab.Panels>
-          {items.map((item) => (
+          {items.map((item, index) => (
             <Tab.Panel key={item.id}>
               <div className="text-center mb-5">
                 <h2 className="lg:text-5xl text-3xl font-bold mx-auto">
@@ -88,7 +88,9 @@ function Song({ items }) {
                 <div className="flex-auto md:w-3/6">
                   <div
                     className="prose card-body block whitespace-pre"
-                    dangerouslySetInnerHTML={createMarkup(item?.attributes?.Text)}
+                    dangerouslySetInnerHTML={createMarkup(
+                      songTexts[index] || item?.attributes?.Text
+                    )}
                   ></div>
                 </div>
               </div>
@@ -102,6 +104,7 @@ function Song({ items }) {
 
 Song.propTypes = {
   items: PropTypes.array,
+  songTexts: PropTypes.array,
 };
 
 export default Song;
