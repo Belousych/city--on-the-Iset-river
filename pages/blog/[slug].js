@@ -1,5 +1,6 @@
 import { GETPOSTBYSLUG } from "@/apollo/queries/post";
 import { POSTSSLUG } from "@/apollo/queries/posts";
+import Error from "next/error";
 import Head from "next/head";
 import PropTypes from "prop-types";
 import React from "react";
@@ -12,6 +13,9 @@ import { addApolloState, initializeApollo } from "@/utils/apollo";
 import markdownToHtml from "@/utils/markdownToHtml";
 
 const Post = ({ slug, content }) => {
+  if (!content) {
+    return <Error statusCode={404} />;
+  }
   return (
     <Layout>
       <div className="py-32 px-3 lg:px-20">
@@ -85,6 +89,11 @@ export async function getStaticProps({ params }) {
     })
     .then((res) => res?.data?.posts?.data[0] || {});
 
+  if (!postData?.attributes?.article) {
+    return {
+      notFound: true,
+    };
+  }
   const content = await markdownToHtml(postData?.attributes?.article);
 
   return addApolloState(apolloClient, {
