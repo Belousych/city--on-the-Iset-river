@@ -69,7 +69,7 @@ export async function getStaticPaths() {
 
   return {
     paths: paths,
-    fallback: false, // can also be true or 'blocking'
+    fallback: true, // can also be true or 'blocking'
   };
 }
 
@@ -92,7 +92,7 @@ export async function getStaticProps({ params }) {
       slug: params.slug,
       content,
     },
-    revalidate: 60,
+    revalidate: 1,
   });
 }
 
