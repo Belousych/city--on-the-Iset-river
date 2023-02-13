@@ -86,12 +86,11 @@ Home.propTypes = {
 export async function getStaticProps() {
   const apolloClient = initializeApollo();
 
-  const contentPageSongs = await apolloClient
-    .query({
-      query: LANDING_QUERY,
-    })
-    .then((res) => res?.data?.songs?.data || []);
+  const res = await apolloClient.query({
+    query: LANDING_QUERY,
+  });
 
+  const contentPageSongs = res?.data?.songs?.data || [];
   const promises = contentPageSongs.map((songItem) => markdownToHtml(songItem.attributes.Text));
 
   const songTexts = await Promise.all(promises);
@@ -99,6 +98,7 @@ export async function getStaticProps() {
   return addApolloState(apolloClient, {
     props: {
       songTexts,
+      data: res?.data,
     },
     revalidate: 60,
   });

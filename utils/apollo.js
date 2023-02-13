@@ -20,11 +20,11 @@ function createApolloClient(initialState) {
     cache: new InMemoryCache().restore(initialState || {}),
     defaultOptions: {
       watchQuery: {
-        fetchPolicy: "no-cache",
+        fetchPolicy: "cache-and-network",
         errorPolicy: "ignore",
       },
       query: {
-        fetchPolicy: "no-cache",
+        fetchPolicy: "cache-first",
         errorPolicy: "all",
       },
     },
