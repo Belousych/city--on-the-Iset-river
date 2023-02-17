@@ -7,43 +7,40 @@ import React from "react";
 
 import Article from "@/components/Article/Article";
 import Layout from "@/components/Layouts/Layout";
-import Query from "@/components/query";
 
+// import Query from "@/components/query";
 import { addApolloState, initializeApollo } from "@/utils/apollo";
 import markdownToHtml from "@/utils/markdownToHtml";
 
-const Post = ({ slug, content }) => {
+const Post = ({ slug, content, data }) => {
   if (!content) {
     return <Error statusCode={404} />;
   }
   return (
     <Layout>
       <div className="py-32 px-3 lg:px-20">
-        <Query query={GETPOSTBYSLUG} variables={{ slug: slug }}>
+        {/* <Query query={GETPOSTBYSLUG} variables={{ slug: slug }}>
           {({ data }) => {
-            return (
-              <>
-                <Head>
-                  <title>Город на Исети - Новости - {data.posts.data[0].attributes.title}</title>
+            return ( */}
+        <>
+          <Head>
+            <title>Город на Исети - Новости - {data.posts.data[0].attributes.title}</title>
 
-                  <meta property="og:title" content={data.posts.data[0].attributes.title} />
+            <meta property="og:title" content={data.posts.data[0].attributes.title} />
 
-                  <meta property="og:locale" content="ru_RU" />
+            <meta property="og:locale" content="ru_RU" />
 
-                  <meta property="og:type" content="website" />
+            <meta property="og:type" content="website" />
 
-                  <meta name="description" content={data.posts.data[0].attributes.description} />
+            <meta name="description" content={data.posts.data[0].attributes.description} />
 
-                  <meta
-                    property="og:description"
-                    content={data.posts.data[0].attributes.description}
-                  />
-                </Head>
-                <Article post={data.posts.data[0].attributes} content={content} />;
-              </>
-            );
+            <meta property="og:description" content={data.posts.data[0].attributes.description} />
+          </Head>
+          <Article post={data.posts.data[0].attributes} content={content} />;
+        </>
+        {/* );
           }}
-        </Query>
+        </Query> */}
       </div>
     </Layout>
   );
@@ -52,6 +49,7 @@ const Post = ({ slug, content }) => {
 Post.propTypes = {
   slug: PropTypes.string,
   content: PropTypes.string,
+  data: PropTypes.object,
 };
 
 export async function getStaticPaths() {
@@ -80,15 +78,16 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const apolloClient = initializeApollo();
 
-  const postData = await apolloClient
+  const postsData = await apolloClient
     .query({
       query: GETPOSTBYSLUG,
       variables: {
         slug: params.slug,
       },
     })
-    .then((res) => res?.data?.posts?.data[0] || {});
+    .then((res) => res);
 
+  const postData = postsData?.data?.posts?.data[0] || {};
   if (!postData?.attributes?.article) {
     return {
       notFound: true,
@@ -100,6 +99,7 @@ export async function getStaticProps({ params }) {
     props: {
       slug: params.slug,
       content,
+      data: postsData?.data,
     },
     revalidate: 1,
   });

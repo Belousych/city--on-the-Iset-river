@@ -19,7 +19,7 @@ function Song({ items, songTexts }) {
         <div className="mx-auto pb-10 text-center">
           <Tab.List
             as="ul"
-            className="menu bg-base-100 menu-vertical lg:menu-horizontal shadow-xl rounded-box"
+            className="menu bg-base-100 menu-vertical lg:menu-horizontal shadow-xl rounded-box flex-wrap"
           >
             {items.map((item) => (
               <Tab as={Fragment} key={item.id}>

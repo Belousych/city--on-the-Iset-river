@@ -8,8 +8,8 @@ import Hero from "@/components/Home/Hero/Hero";
 // import Song from "@/components/Home/Song/Song";
 // import Team from "@/components/Home/Team/Team";
 import Layout from "@/components/Layouts/Layout";
-import Query from "@/components/query";
 
+// import Query from "@/components/query";
 import { addApolloState, initializeApollo } from "@/utils/apollo";
 import markdownToHtml from "@/utils/markdownToHtml";
 
@@ -17,7 +17,7 @@ const Song = dynamic(() => import("@/components/Home/Song/Song"));
 const Team = dynamic(() => import("@/components/Home/Team/Team"));
 const About = dynamic(() => import("@/components/Home/About/About"));
 
-export default function Home({ songTexts }) {
+export default function Home({ songTexts, data }) {
   return (
     <Layout>
       <Head>
@@ -52,35 +52,36 @@ export default function Home({ songTexts }) {
           content="https://iset.city/_ipx/w_640,q_75/%2Fheader2.jpg?url=%2Fheader2.jpg&w=640&q=75"
         />
       </Head>
-      <Query query={LANDING_QUERY}>
+      {/* <Query query={LANDING_QUERY}>
         {({ data }) => {
-          return (
-            <>
-              <Hero
-                title={data?.isetLanding?.data?.attributes?.title}
-                subtitle={data?.isetLanding?.data?.attributes?.subtitle}
-                background={data?.isetLanding?.data?.attributes?.background}
-              />
+          return ( */}
+      <>
+        <Hero
+          title={data?.isetLanding?.data?.attributes?.title}
+          subtitle={data?.isetLanding?.data?.attributes?.subtitle}
+          background={data?.isetLanding?.data?.attributes?.background}
+        />
 
-              <About
-                aboutTitle={data?.isetLanding?.data?.attributes?.aboutTitle}
-                aboutText={data?.isetLanding?.data?.attributes?.aboutText}
-                avatar={data?.isetLanding?.data?.attributes?.avatar}
-                aboutPS={data?.isetLanding?.data?.attributes?.aboutPS}
-              />
-              <Song items={data?.songs?.data} songTexts={songTexts} />
+        <About
+          aboutTitle={data?.isetLanding?.data?.attributes?.aboutTitle}
+          aboutText={data?.isetLanding?.data?.attributes?.aboutText}
+          avatar={data?.isetLanding?.data?.attributes?.avatar}
+          aboutPS={data?.isetLanding?.data?.attributes?.aboutPS}
+        />
+        <Song items={data?.songs?.data} songTexts={songTexts} />
 
-              <Team items={data?.teams?.data} />
-            </>
-          );
+        <Team items={data?.teams?.data} />
+      </>
+      {/* );
         }}
-      </Query>
+      </Query> */}
     </Layout>
   );
 }
 
 Home.propTypes = {
   songTexts: PropTypes.array,
+  data: PropTypes.object,
 };
 
 export async function getStaticProps() {
