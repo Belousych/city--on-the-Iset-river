@@ -24,7 +24,7 @@ function createApolloClient(initialState) {
         errorPolicy: "ignore",
       },
       query: {
-        fetchPolicy: "cache-and-network",
+        fetchPolicy: "network-only",
         errorPolicy: "all",
       },
     },
