@@ -16,6 +16,11 @@ const Post = ({ slug, content, data }) => {
   if (!content) {
     return <Error statusCode={404} />;
   }
+
+  const imgUri =
+    data?.posts?.data?.[0]?.attributes?.images?.data.length > 0
+      ? data.posts.data[0].attributes.images.data[0].attributes.url
+      : "https://iset.city/_ipx/w_640,q_75/%2Fheader2.jpg?url=%2Fheader2.jpg&w=640&q=75";
   return (
     <Layout>
       <div className="py-32 px-3 lg:px-20">
@@ -35,6 +40,8 @@ const Post = ({ slug, content, data }) => {
             <meta name="description" content={data.posts.data[0].attributes.description} />
 
             <meta property="og:description" content={data.posts.data[0].attributes.description} />
+
+            <meta property="og:image" content={imgUri} />
           </Head>
           <Article post={data.posts.data[0].attributes} content={content} />;
         </>
