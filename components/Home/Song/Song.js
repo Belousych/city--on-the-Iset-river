@@ -14,7 +14,7 @@ function Song({ items, songTexts }) {
     return null;
   }
   return (
-    <div className="py-10 overflow-hidden overflow-x-auto" id="song">
+    <div className="py-10 overflow-hidden overflow-x-auto md:overflow-visible" id="song">
       <Tab.Group>
         <div className="mx-auto pb-10 text-center">
           <Tab.List
