@@ -6,26 +6,46 @@ import { createMarkup } from "@/utils/utils";
 
 function Song({ items, songTexts }) {
   const [mount, setMount] = useState(null);
+  const [selectedIndex, setSelectedIndex] = useState(0);
   useEffect(() => {
     setMount(true);
   }, []);
+
+  const handleChange = (e) => {
+    setSelectedIndex(e.target.value);
+  };
 
   if (!items || items.length === 0) {
     return null;
   }
   return (
     <div className="py-10 overflow-hidden overflow-x-auto md:overflow-visible" id="song">
-      <Tab.Group>
+      <div className="form-control w-full max-w-xs mx-auto 3xl:hidden">
+        <label className="label">
+          <span className="label-text">Выберите язык</span>
+        </label>
+        <select className="select select-primary w-full max-w-xs" onChange={handleChange}>
+          {items.map((item, index) => (
+            <option value={index} key={item.id}>
+              {item?.attributes?.Lang}
+            </option>
+          ))}
+        </select>
+      </div>
+
+      <Tab.Group selectedIndex={selectedIndex} onChange={setSelectedIndex}>
         <div className="mx-auto pb-10 text-center">
           <Tab.List
             as="ul"
             className="menu bg-base-100 menu-vertical lg:menu-horizontal shadow-xl rounded-box flex-wrap"
           >
             {items.map((item) => (
-              <Tab as={Fragment} key={item.id}>
+              <Tab key={item.id} as={Fragment}>
                 {({ selected }) => (
-                  <li>
-                    <button className={selected ? "active" : ""}>{item?.attributes?.Lang}</button>
+                  <li className="hidden 3xl:block">
+                    <button className={selected ? "active" : ""} type="button">
+                      {item?.attributes?.Lang}
+                    </button>
                   </li>
                 )}
               </Tab>
