@@ -89,3 +89,7 @@ a {
 .hover-opacity-100:hover > div {
   opacity: 1;
 }
+
+.prose.card-body.whitespace-pre p {
+  margin: 0;
+}
