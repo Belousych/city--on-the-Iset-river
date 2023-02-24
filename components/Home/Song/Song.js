@@ -88,8 +88,6 @@ function Song({ items, songTexts }) {
                             <img src="/audio_en.jpg" alt="City" className="rounded-xl" />
                           </figure>
                           <div className="card-body items-center text-center">
-                            <h2 className="card-title">Listen!</h2>
-
                             <figure>
                               <figcaption></figcaption>
                               <audio
