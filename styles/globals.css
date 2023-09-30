@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Sverdlovsk";
+  src: local("Sverdlovsk Regular"), local("Sverdlovsk-Regular"),
+    url("fonts/Sverdlovsk/Sverdlovsk.woff") format("woff"),
+    url("fonts/Sverdlovsk/Sverdlovsk.ttf") format("truetype"),
+    url("fonts/Sverdlovsk/Sverdlovsk.otf") format("opentype");
+
+  font-weight: normal;
+}
+
 html,
 body {
   padding: 0;

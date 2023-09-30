@@ -17,7 +17,7 @@ function About({ avatar, aboutTitle, aboutText, aboutPS }) {
           />
         </div>
         <div className="prose">
-          <h2 className="mb-5 text-2xl font-bold">{aboutTitle}</h2>
+          <h2 className="mb-5 text-5xl font-bold font-sverdlovsk">{aboutTitle}</h2>
           <p className="mb-5">{aboutText}</p>
           <p className="text-right">
             <i>{aboutPS}</i>

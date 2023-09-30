@@ -1,13 +1,10 @@
-import POSTS from "@/apollo/queries/posts";
 import Head from "next/head";
 import PropTypes from "prop-types";
 import React from "react";
 
 import Card from "@/components/Card/Card";
 import Layout from "@/components/Layouts/Layout";
-
-// import Query from "@/components/query";
-import { addApolloState, initializeApollo } from "@/utils/apollo";
+import posts from "@/components/data/posts.json";
 
 const Blog = ({ data }) => {
   return (
@@ -32,11 +29,10 @@ const Blog = ({ data }) => {
           {({ data }) => {
             return ( */}
         <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-4">
-          {data &&
-            data?.posts?.data.map((item) => {
-              // const { title, Date, images } = item.attributes;
-              return <Card key={item.id} id={item.id} {...item.attributes} />;
-            })}
+          {posts?.data.map((item) => {
+            // const { title, Date, images } = item.attributes;
+            return <Card key={item.id} id={item.id} {...item.attributes} />;
+          })}
         </div>
         {/* );
           }}
@@ -50,19 +46,19 @@ Blog.propTypes = {
   data: PropTypes.object,
 };
 
-export async function getStaticProps() {
-  const apolloClient = initializeApollo();
+// export async function getStaticProps() {
+//   const apolloClient = initializeApollo();
 
-  const res = await apolloClient.query({
-    query: POSTS,
-  });
+//   const res = await apolloClient.query({
+//     query: POSTS,
+//   });
 
-  return addApolloState(apolloClient, {
-    props: {
-      data: res?.data,
-    },
-    revalidate: 1,
-  });
-}
+//   return addApolloState(apolloClient, {
+//     props: {
+//       data: res?.data,
+//     },
+//     revalidate: 1,
+//   });
+// }
 
 export default Blog;

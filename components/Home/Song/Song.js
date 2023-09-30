@@ -56,7 +56,7 @@ function Song({ items, songTexts }) {
           {items.map((item, index) => (
             <Tab.Panel key={item.id}>
               <div className="text-center mb-5">
-                <h2 className="lg:text-5xl text-3xl font-bold mx-auto">
+                <h2 className="lg:text-5xl text-3xl font-bold mx-auto font-sverdlovsk">
                   {item?.attributes?.Header}
                 </h2>
               </div>

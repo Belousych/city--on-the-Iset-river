@@ -1,4 +1,5 @@
-import LANDING_QUERY from "@/apollo/queries/song-landing/landing";
+// import LANDING_QUERY from "@/apollo/queries/song-landing/landing";
+import sortBy from "lodash/sortBy";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import PropTypes from "prop-types";
@@ -8,9 +9,12 @@ import Hero from "@/components/Home/Hero/Hero";
 // import Song from "@/components/Home/Song/Song";
 // import Team from "@/components/Home/Team/Team";
 import Layout from "@/components/Layouts/Layout";
+import isetLanding from "@/components/data/iset-landing.json";
+import songs from "@/components/data/songs.json";
+import teams from "@/components/data/teams.json";
 
 // import Query from "@/components/query";
-import { addApolloState, initializeApollo } from "@/utils/apollo";
+// import { addApolloState, initializeApollo } from "@/utils/apollo";
 import markdownToHtml from "@/utils/markdownToHtml";
 
 const Song = dynamic(() => import("@/components/Home/Song/Song"));
@@ -57,20 +61,20 @@ export default function Home({ songTexts, data }) {
           return ( */}
       <>
         <Hero
-          title={data?.isetLanding?.data?.attributes?.title}
-          subtitle={data?.isetLanding?.data?.attributes?.subtitle}
-          background={data?.isetLanding?.data?.attributes?.background}
+          title={isetLanding?.data?.attributes?.title}
+          subtitle={isetLanding?.data?.attributes?.subtitle}
+          background={isetLanding?.data?.attributes?.background}
         />
 
         <About
-          aboutTitle={data?.isetLanding?.data?.attributes?.aboutTitle}
-          aboutText={data?.isetLanding?.data?.attributes?.aboutText}
-          avatar={data?.isetLanding?.data?.attributes?.avatar}
-          aboutPS={data?.isetLanding?.data?.attributes?.aboutPS}
+          aboutTitle={isetLanding?.data?.attributes?.aboutTitle}
+          aboutText={isetLanding?.data?.attributes?.aboutText}
+          avatar={isetLanding?.data?.attributes?.avatar}
+          aboutPS={isetLanding?.data?.attributes?.aboutPS}
         />
-        <Song items={data?.songs?.data} songTexts={songTexts} />
+        <Song items={songs?.data} songTexts={songTexts} />
 
-        <Team items={data?.teams?.data} />
+        <Team items={sortBy(teams?.data, (item) => item.attributes.sortOrder)} />
       </>
       {/* );
         }}
@@ -85,22 +89,19 @@ Home.propTypes = {
 };
 
 export async function getStaticProps() {
-  const apolloClient = initializeApollo();
+  // const apolloClient = initializeApollo();
 
-  const res = await apolloClient.query({
-    query: LANDING_QUERY,
-  });
+  // const res = await apolloClient.query({
+  //   query: LANDING_QUERY,
+  // });
 
-  const contentPageSongs = res?.data?.songs?.data || [];
+  const contentPageSongs = songs?.data || [];
   const promises = contentPageSongs.map((songItem) => markdownToHtml(songItem.attributes.Text));
 
   const songTexts = await Promise.all(promises);
-
-  return addApolloState(apolloClient, {
+  return {
     props: {
       songTexts,
-      data: res?.data,
     },
-    revalidate: 60,
-  });
+  };
 }

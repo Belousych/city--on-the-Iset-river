@@ -1,0 +1,190 @@
+{
+  "data": {
+    "id": 1,
+    "attributes": {
+      "title": "Здравствуй, город на Исети!",
+      "subtitle": "Песня к 300-летию Екатеринбурга",
+      "aboutTitle": "Дорогие друзья!",
+      "aboutText": "К 300-летию Екатеринбурга мы решили перевести и исполнить на разных языках песню о нашем любимом городе, где живут представители больше 100 национальностей. Уже готовы английская, французская и китайская версии. В нашей команде - переводчики, исполнители, актёры, танцоры, и просто креативные жители Екатеринбурга. Если есть идеи и вы влюблены в этот город, присоединяйтесь к нам!",
+      "aboutPS": "С уважением, Ольга Белоусова",
+      "createdAt": "2022-03-19T10:22:04.169Z",
+      "updatedAt": "2022-03-23T17:59:40.013Z",
+      "publishedAt": "2022-03-19T10:22:05.819Z",
+      "background": {
+        "data": {
+          "id": 1,
+          "attributes": {
+            "name": "header2.jpg",
+            "alternativeText": "header2.jpg",
+            "caption": "header2.jpg",
+            "width": 3840,
+            "height": 2160,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1648058339/large_header2_ff1759a09d.jpg",
+                "hash": "large_header2_ff1759a09d",
+                "mime": "image/jpeg",
+                "name": "large_header2.jpg",
+                "path": null,
+                "size": 111.07,
+                "width": 1000,
+                "height": 563,
+                "provider_metadata": {
+                  "public_id": "large_header2_ff1759a09d",
+                  "resource_type": "image"
+                }
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1648058341/small_header2_ff1759a09d.jpg",
+                "hash": "small_header2_ff1759a09d",
+                "mime": "image/jpeg",
+                "name": "small_header2.jpg",
+                "path": null,
+                "size": 29.73,
+                "width": 500,
+                "height": 281,
+                "provider_metadata": {
+                  "public_id": "small_header2_ff1759a09d",
+                  "resource_type": "image"
+                }
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1648058340/medium_header2_ff1759a09d.jpg",
+                "hash": "medium_header2_ff1759a09d",
+                "mime": "image/jpeg",
+                "name": "medium_header2.jpg",
+                "path": null,
+                "size": 62.81,
+                "width": 750,
+                "height": 422,
+                "provider_metadata": {
+                  "public_id": "medium_header2_ff1759a09d",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1648058338/thumbnail_header2_ff1759a09d.jpg",
+                "hash": "thumbnail_header2_ff1759a09d",
+                "mime": "image/jpeg",
+                "name": "thumbnail_header2.jpg",
+                "path": null,
+                "size": 8.28,
+                "width": 245,
+                "height": 138,
+                "provider_metadata": {
+                  "public_id": "thumbnail_header2_ff1759a09d",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "header2_ff1759a09d",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 1428.51,
+            "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1648058337/header2_ff1759a09d.jpg",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "header2_ff1759a09d",
+              "resource_type": "image"
+            },
+            "createdAt": "2022-03-23T17:59:01.613Z",
+            "updatedAt": "2022-03-23T17:59:01.613Z"
+          }
+        }
+      },
+      "avatar": {
+        "data": {
+          "id": 2,
+          "attributes": {
+            "name": "olly.jpg",
+            "alternativeText": "olly.jpg",
+            "caption": "olly.jpg",
+            "width": 1000,
+            "height": 1001,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1648058365/large_olly_9b440d376e.jpg",
+                "hash": "large_olly_9b440d376e",
+                "mime": "image/jpeg",
+                "name": "large_olly.jpg",
+                "path": null,
+                "size": 102.88,
+                "width": 999,
+                "height": 1000,
+                "provider_metadata": {
+                  "public_id": "large_olly_9b440d376e",
+                  "resource_type": "image"
+                }
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1648058366/small_olly_9b440d376e.jpg",
+                "hash": "small_olly_9b440d376e",
+                "mime": "image/jpeg",
+                "name": "small_olly.jpg",
+                "path": null,
+                "size": 28.29,
+                "width": 500,
+                "height": 500,
+                "provider_metadata": {
+                  "public_id": "small_olly_9b440d376e",
+                  "resource_type": "image"
+                }
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1648058365/medium_olly_9b440d376e.jpg",
+                "hash": "medium_olly_9b440d376e",
+                "mime": "image/jpeg",
+                "name": "medium_olly.jpg",
+                "path": null,
+                "size": 58.48,
+                "width": 749,
+                "height": 750,
+                "provider_metadata": {
+                  "public_id": "medium_olly_9b440d376e",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1648058364/thumbnail_olly_9b440d376e.jpg",
+                "hash": "thumbnail_olly_9b440d376e",
+                "mime": "image/jpeg",
+                "name": "thumbnail_olly.jpg",
+                "path": null,
+                "size": 4.41,
+                "width": 156,
+                "height": 156,
+                "provider_metadata": {
+                  "public_id": "thumbnail_olly_9b440d376e",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "olly_9b440d376e",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 104.57,
+            "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1648058363/olly_9b440d376e.jpg",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "olly_9b440d376e",
+              "resource_type": "image"
+            },
+            "createdAt": "2022-03-23T17:59:26.902Z",
+            "updatedAt": "2022-03-23T17:59:26.902Z"
+          }
+        }
+      }
+    }
+  },
+  "meta": {}
+}

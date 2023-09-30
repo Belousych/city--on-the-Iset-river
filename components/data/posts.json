@@ -1,0 +1,910 @@
+{
+  "data": [
+    {
+      "id": 5,
+      "attributes": {
+        "Date": "2022-08-12T12:33:00.000Z",
+        "article": "Два поэта - два взгляда на одну песню. \n\n_**Мунир Иксанов**_ преподаёт башкирский язык и литературу в школе № 7 селе Миндяк Учалинского района Республики Башкортостан. Он издал несколько поэтических сборников, а недавно перевёл песни лидера рок-группы «Кино» Виктора Цоя на башкирский язык и выпустил сборник «Йырлап ҡара минең менән бергә» («Попробуй спеть вместе со мной»). Именно благодаря Муниру Ишкеновичу \"Город на Исети\" теперь можно спеть и на башкирском языке. Перевод родился, как и сама песня, быстро, буквально за полдня.\n\nА вчера встретились с _**Хафизом Галиевым**_, который перевёл песню на татарский язык. Это знакомство стало возможным благодаря руководителю региональной организации \"Татары Урала\"** _Суфии Таминдаровой_**, поддержавшей проект.\n\nХафиз Миннулович родился в деревне Средний Бугалыш, Красноуфимского района. После института работал в родном селе инженером по внедрению новой техники в Бугалышской «Сельхозтехнике». В 1983 году переехал в Екатеринбург и тогда же начал писать стихи.\n\nЕсли вы услышите знаменитый \"Свердловский вальс\" на татарском языке - её перевод сделал Хафиз Галиев.\n\nЗа чашкой чая Хафиз Минуллович рассказал, как переводил \"Город на Исети\". Сделал 20 вариантов с разными правками, чтобы песня красиво зазвучала на татарском! Послушала перевод в исполнении автора - это волшебство какое-то!\nНадеюсь, что совсем скоро песню можно будет послушать в записи: идею поддержал руководитель народного ансамбля татарской песни «ЯШЬЛЕК» г. Екатеринбурга _**Рафис Нигамадьянов.**_\n",
+        "title": "Готовы переводы на башкирский и татарский языки",
+        "createdAt": "2022-08-07T09:45:55.214Z",
+        "updatedAt": "2022-08-13T16:28:08.106Z",
+        "publishedAt": "2022-08-07T09:45:57.131Z",
+        "description": "Автор башкирской версии песни - поэт из республики Башкортостан Мунир Иксанов, автор перевода на татарский язык - уроженец Красноуфимского района Свердловской области Хафиз Галиев",
+        "slug": "gotovy-perevody-na-bashkirskij-i-tatarskij-yazyki",
+        "images": {
+          "data": [
+            {
+              "id": 64,
+              "attributes": {
+                "name": "bucN-kG9_78.jpg",
+                "alternativeText": "bucN-kG9_78.jpg",
+                "caption": "bucN-kG9_78.jpg",
+                "width": 1920,
+                "height": 1440,
+                "formats": {
+                  "large": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1660407607/large_buc_N_k_G9_78_0b9474b710.jpg",
+                    "hash": "large_buc_N_k_G9_78_0b9474b710",
+                    "mime": "image/jpeg",
+                    "name": "large_bucN-kG9_78.jpg",
+                    "path": null,
+                    "size": 114.17,
+                    "width": 1000,
+                    "height": 750,
+                    "provider_metadata": {
+                      "public_id": "large_buc_N_k_G9_78_0b9474b710",
+                      "resource_type": "image"
+                    }
+                  },
+                  "small": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1660407608/small_buc_N_k_G9_78_0b9474b710.jpg",
+                    "hash": "small_buc_N_k_G9_78_0b9474b710",
+                    "mime": "image/jpeg",
+                    "name": "small_bucN-kG9_78.jpg",
+                    "path": null,
+                    "size": 32.84,
+                    "width": 500,
+                    "height": 375,
+                    "provider_metadata": {
+                      "public_id": "small_buc_N_k_G9_78_0b9474b710",
+                      "resource_type": "image"
+                    }
+                  },
+                  "medium": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1660407607/medium_buc_N_k_G9_78_0b9474b710.jpg",
+                    "hash": "medium_buc_N_k_G9_78_0b9474b710",
+                    "mime": "image/jpeg",
+                    "name": "medium_bucN-kG9_78.jpg",
+                    "path": null,
+                    "size": 71.58,
+                    "width": 750,
+                    "height": 563,
+                    "provider_metadata": {
+                      "public_id": "medium_buc_N_k_G9_78_0b9474b710",
+                      "resource_type": "image"
+                    }
+                  },
+                  "thumbnail": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1660407606/thumbnail_buc_N_k_G9_78_0b9474b710.jpg",
+                    "hash": "thumbnail_buc_N_k_G9_78_0b9474b710",
+                    "mime": "image/jpeg",
+                    "name": "thumbnail_bucN-kG9_78.jpg",
+                    "path": null,
+                    "size": 6.03,
+                    "width": 208,
+                    "height": 156,
+                    "provider_metadata": {
+                      "public_id": "thumbnail_buc_N_k_G9_78_0b9474b710",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "buc_N_k_G9_78_0b9474b710",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 271.23,
+                "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1660407605/buc_N_k_G9_78_0b9474b710.jpg",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                  "public_id": "buc_N_k_G9_78_0b9474b710",
+                  "resource_type": "image"
+                },
+                "createdAt": "2022-08-13T16:20:09.296Z",
+                "updatedAt": "2022-08-13T16:20:09.296Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "Date": "2022-08-13T14:59:00.000Z",
+        "article": "Город на Исети\" перевела и исполнила на японском языке русско-японская группа Deai.\n_**Нацуки Сугавара**_ и _**Виталий Сунцев**_ - семейный дуэт, они перевеодят на японский язык советские и современные хиты. В их исполнении прозвучали \"Миллион алых роз\", \"На заре\", \"Эхо любви\", \"Прекрасное далёко\", \"Я хочу быть с тобой\". Последнюю ребята исполняли вместе с Вячеславом Бутусовым.\nРебята откликнулись, находясь за шесть тысяч километров от Екатеринбурга. Но для музыки, как известно, расстояний нет.\n",
+        "title": "Дуэт из Токио спел о Екатеринбурге на японском языке",
+        "createdAt": "2022-08-13T16:38:01.767Z",
+        "updatedAt": "2022-08-14T06:09:46.840Z",
+        "publishedAt": "2022-08-13T16:38:05.497Z",
+        "description": "Музыкальный проект поддержали музыканты из Токио (коллектив Deai). ",
+        "slug": "duet-iz-tokio-spel-o-ekaterinburge-na-yaponskom-yazyke",
+        "images": {
+          "data": [
+            {
+              "id": 65,
+              "attributes": {
+                "name": "ffxNZqp6aC0.jpg",
+                "alternativeText": "ffxNZqp6aC0.jpg",
+                "caption": "ffxNZqp6aC0.jpg",
+                "width": 1416,
+                "height": 828,
+                "formats": {
+                  "large": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1660408283/large_ffx_N_Zqp6a_C0_95a71bea47.jpg",
+                    "hash": "large_ffx_N_Zqp6a_C0_95a71bea47",
+                    "mime": "image/jpeg",
+                    "name": "large_ffxNZqp6aC0.jpg",
+                    "path": null,
+                    "size": 85.85,
+                    "width": 1000,
+                    "height": 585,
+                    "provider_metadata": {
+                      "public_id": "large_ffx_N_Zqp6a_C0_95a71bea47",
+                      "resource_type": "image"
+                    }
+                  },
+                  "small": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1660408284/small_ffx_N_Zqp6a_C0_95a71bea47.jpg",
+                    "hash": "small_ffx_N_Zqp6a_C0_95a71bea47",
+                    "mime": "image/jpeg",
+                    "name": "small_ffxNZqp6aC0.jpg",
+                    "path": null,
+                    "size": 24.61,
+                    "width": 500,
+                    "height": 292,
+                    "provider_metadata": {
+                      "public_id": "small_ffx_N_Zqp6a_C0_95a71bea47",
+                      "resource_type": "image"
+                    }
+                  },
+                  "medium": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1660408283/medium_ffx_N_Zqp6a_C0_95a71bea47.jpg",
+                    "hash": "medium_ffx_N_Zqp6a_C0_95a71bea47",
+                    "mime": "image/jpeg",
+                    "name": "medium_ffxNZqp6aC0.jpg",
+                    "path": null,
+                    "size": 50.34,
+                    "width": 750,
+                    "height": 439,
+                    "provider_metadata": {
+                      "public_id": "medium_ffx_N_Zqp6a_C0_95a71bea47",
+                      "resource_type": "image"
+                    }
+                  },
+                  "thumbnail": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1660408282/thumbnail_ffx_N_Zqp6a_C0_95a71bea47.jpg",
+                    "hash": "thumbnail_ffx_N_Zqp6a_C0_95a71bea47",
+                    "mime": "image/jpeg",
+                    "name": "thumbnail_ffxNZqp6aC0.jpg",
+                    "path": null,
+                    "size": 7.19,
+                    "width": 245,
+                    "height": 143,
+                    "provider_metadata": {
+                      "public_id": "thumbnail_ffx_N_Zqp6a_C0_95a71bea47",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "ffx_N_Zqp6a_C0_95a71bea47",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 167.47,
+                "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1660408281/ffx_N_Zqp6a_C0_95a71bea47.jpg",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                  "public_id": "ffx_N_Zqp6a_C0_95a71bea47",
+                  "resource_type": "image"
+                },
+                "createdAt": "2022-08-13T16:31:24.967Z",
+                "updatedAt": "2022-08-13T16:31:24.967Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "Date": "2022-08-13T09:27:00.000Z",
+        "article": "\nНесколько лет назад солист Симфонического хора Свердловской филармонии _**Ли Илунь**_ перевёл и исполнил один куплет и припев песни.\n\nЭти строчки легли в основу полного перевода, который совместно сделали _**Линьлинь Сюй**_, Ван Янь и наш уральский переводчик _**Сергей Буховцов**_.\n\nИсполнил песню аспирант УрФУ, старший преподаватель Института Конфуция УрФУ **_Цао Лян_**.",
+        "title": "\"Город на Исети\" спели на китайском языке ",
+        "createdAt": "2022-04-10T13:48:56.263Z",
+        "updatedAt": "2022-08-13T16:29:04.182Z",
+        "publishedAt": "2022-04-10T13:48:57.424Z",
+        "description": "Над переводом работала целая команда, включая самого исполнителя - аспиранта УрФУ, старшего преподавателя Института Конфуция УрФУ Цао Ляна",
+        "slug": "gorod-na-iseti-speli-na-kitajskom-yazyke",
+        "images": {
+          "data": [
+            {
+              "id": 63,
+              "attributes": {
+                "name": "p6gzwuixBQU.jpg",
+                "alternativeText": "p6gzwuixBQU.jpg",
+                "caption": "p6gzwuixBQU.jpg",
+                "width": 1920,
+                "height": 1440,
+                "formats": {
+                  "large": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1660406870/large_p6gzwuix_BQU_3f74361551.jpg",
+                    "hash": "large_p6gzwuix_BQU_3f74361551",
+                    "mime": "image/jpeg",
+                    "name": "large_p6gzwuixBQU.jpg",
+                    "path": null,
+                    "size": 105.05,
+                    "width": 1000,
+                    "height": 750,
+                    "provider_metadata": {
+                      "public_id": "large_p6gzwuix_BQU_3f74361551",
+                      "resource_type": "image"
+                    }
+                  },
+                  "small": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1660406872/small_p6gzwuix_BQU_3f74361551.jpg",
+                    "hash": "small_p6gzwuix_BQU_3f74361551",
+                    "mime": "image/jpeg",
+                    "name": "small_p6gzwuixBQU.jpg",
+                    "path": null,
+                    "size": 33.44,
+                    "width": 500,
+                    "height": 375,
+                    "provider_metadata": {
+                      "public_id": "small_p6gzwuix_BQU_3f74361551",
+                      "resource_type": "image"
+                    }
+                  },
+                  "medium": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1660406871/medium_p6gzwuix_BQU_3f74361551.jpg",
+                    "hash": "medium_p6gzwuix_BQU_3f74361551",
+                    "mime": "image/jpeg",
+                    "name": "medium_p6gzwuixBQU.jpg",
+                    "path": null,
+                    "size": 65.8,
+                    "width": 750,
+                    "height": 563,
+                    "provider_metadata": {
+                      "public_id": "medium_p6gzwuix_BQU_3f74361551",
+                      "resource_type": "image"
+                    }
+                  },
+                  "thumbnail": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1660406869/thumbnail_p6gzwuix_BQU_3f74361551.jpg",
+                    "hash": "thumbnail_p6gzwuix_BQU_3f74361551",
+                    "mime": "image/jpeg",
+                    "name": "thumbnail_p6gzwuixBQU.jpg",
+                    "path": null,
+                    "size": 7.63,
+                    "width": 208,
+                    "height": 156,
+                    "provider_metadata": {
+                      "public_id": "thumbnail_p6gzwuix_BQU_3f74361551",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "p6gzwuix_BQU_3f74361551",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 273.79,
+                "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1660406868/p6gzwuix_BQU_3f74361551.jpg",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                  "public_id": "p6gzwuix_BQU_3f74361551",
+                  "resource_type": "image"
+                },
+                "createdAt": "2022-08-13T16:07:52.359Z",
+                "updatedAt": "2022-08-13T16:07:52.359Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 7,
+      "attributes": {
+        "Date": "2022-08-07T19:00:00.000Z",
+        "article": "Клип на песню о Екатеринбурге \"Город на Исети\" ко дню рождения уральской столицы записали артисты ансамбля жестовой песни Пермского Государственного Гуманитарно-Педагогического Университета (ПГГПУ) \"Поющие сердцем\". Песня исполнена на русском и жестовом языках. В клипе задействованы участники ансамбля **__Елена Бокова__** и _**Мария Новикова**_.\n\nПроект решили поддержать, чтобы люди с нарушением слуха, живущие в Екатеринбурге, могли не только прочитать текст песни о любимом городе, а прослушать и прочувствовать её. А для коллектива это еще один опыт,- пояснила участница ансамбля _**Татьяна Липина**_.\n\nКоллектив \"Поющие сердцем\" создан на кафедре специальной педагогики и психологии ПГГПУ в 2015 году. Ансамбль переводит и исполняет на жестовом языке популярные российские песни. Ребята участвуют и побеждают в региональных и всероссийских конкурсах и фестивалях, волонтёрских акциях, праздничных мероприятиях для детей и взрослых с ограниченными возможностями. \n\nС переводом песен исполнителям помогает педагог общеобразовательной школы-интерната Пермского края _**Наталья Балуева**_.",
+        "title": "\"Спели сердцем\": пермские студенты сняли клип о Екатеринбурге на жестовом языке",
+        "createdAt": "2022-08-15T10:29:21.626Z",
+        "updatedAt": "2022-08-16T10:40:40.994Z",
+        "publishedAt": "2022-08-15T10:29:23.723Z",
+        "description": "Ко дню рождения уральской столицы ролик записали артисты ансамбля жестовой песни Пермского Государственного Гуманитарно-Педагогического Университета (ПГГПУ) \"Поющие сердцем\"",
+        "slug": "speli-serdczem-permskie-studenty-snyali-klip-o-ekaterinburge-na-zhestovom-yazyke",
+        "images": {
+          "data": [
+            {
+              "id": 67,
+              "attributes": {
+                "name": "скрин.JPG",
+                "alternativeText": "скрин.JPG",
+                "caption": "скрин.JPG",
+                "width": 1251,
+                "height": 630,
+                "formats": {
+                  "large": {
+                    "ext": ".JPG",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1660558532/large_skrin_2e0830181e.jpg",
+                    "hash": "large_skrin_2e0830181e",
+                    "mime": "image/jpeg",
+                    "name": "large_скрин.JPG",
+                    "path": null,
+                    "size": 50.83,
+                    "width": 1000,
+                    "height": 504,
+                    "provider_metadata": {
+                      "public_id": "large_skrin_2e0830181e",
+                      "resource_type": "image"
+                    }
+                  },
+                  "small": {
+                    "ext": ".JPG",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1660558533/small_skrin_2e0830181e.jpg",
+                    "hash": "small_skrin_2e0830181e",
+                    "mime": "image/jpeg",
+                    "name": "small_скрин.JPG",
+                    "path": null,
+                    "size": 18.47,
+                    "width": 500,
+                    "height": 252,
+                    "provider_metadata": {
+                      "public_id": "small_skrin_2e0830181e",
+                      "resource_type": "image"
+                    }
+                  },
+                  "medium": {
+                    "ext": ".JPG",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1660558533/medium_skrin_2e0830181e.jpg",
+                    "hash": "medium_skrin_2e0830181e",
+                    "mime": "image/jpeg",
+                    "name": "medium_скрин.JPG",
+                    "path": null,
+                    "size": 33.62,
+                    "width": 750,
+                    "height": 378,
+                    "provider_metadata": {
+                      "public_id": "medium_skrin_2e0830181e",
+                      "resource_type": "image"
+                    }
+                  },
+                  "thumbnail": {
+                    "ext": ".JPG",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1660558531/thumbnail_skrin_2e0830181e.jpg",
+                    "hash": "thumbnail_skrin_2e0830181e",
+                    "mime": "image/jpeg",
+                    "name": "thumbnail_скрин.JPG",
+                    "path": null,
+                    "size": 6.11,
+                    "width": 245,
+                    "height": 123,
+                    "provider_metadata": {
+                      "public_id": "thumbnail_skrin_2e0830181e",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "skrin_2e0830181e",
+                "ext": ".JPG",
+                "mime": "image/jpeg",
+                "size": 67.51,
+                "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1660558531/skrin_2e0830181e.jpg",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                  "public_id": "skrin_2e0830181e",
+                  "resource_type": "image"
+                },
+                "createdAt": "2022-08-15T10:15:34.335Z",
+                "updatedAt": "2022-08-15T10:15:57.068Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 9,
+      "attributes": {
+        "Date": "2022-08-18T19:00:00.000Z",
+        "article": "...на жестовом языке.\n\n**Ансамбль жестовой песни «Поющие сердцем» Пермского государственного гуманитарно-педагогического университета сделал творческий подарок жителям Екатеринбурга.**\n\nКо дню рождения уральской столицы участники коллектива записали клип на жестовом языке на песню «Город на Исети».\n\nАвторами песни стали уральская журналистка _**Ольга Белоусова**_ и звукорежиссёр, музыкант_ **Виктор Солдатов**_. Спел её актёр и певец _**Михаил Мостов**_. Композицию исполнили участницы ансамбля _**Елена Бокова**_ и _**Мария Новикова**_.\n\n«О Екатеринбурге есть много хороших песен, и нам хотелось, чтобы одну из этих песен люди с нарушениями слуха смогли \"услышать\", прочувствовать целиком, а не просто прочитать её текст», – поделилась режиссёр и монтажёр клипа _**Татьяна Липина**_.\n\nАнсамбль «Поющие сердцем» переводит и исполняет на жестовом языке популярные российские песни. Песню о Екатеринбурге молодые артисты перевели и разучили за несколько недель.\n\nТекст подготовила Екатерина Самсонова, фото Алины Шешеня. Фото: пресс-служба администрации Екатеринбурга.\n\n[https://xn--80acgfbsl1azdqr.xn--p1ai/news/88639-permyaki-prepodnesli-ekaterinburzhtsam-originalnyy-podarok-ko-dnyu-goroda](link)",
+        "title": "\"Екатеринбург.рф\": Пермяки преподнесли екатеринбуржцам оригинальный подарок ко Дню города",
+        "createdAt": "2022-08-22T12:46:10.516Z",
+        "updatedAt": "2022-08-22T12:54:42.228Z",
+        "publishedAt": "2022-08-22T12:46:11.636Z",
+        "description": "О нашем проекте - на сайте администрации Екатеринбурга",
+        "slug": "permyaki-prepodnesli-ekaterinburzhczam-originalnyj-podarok-ko-dnyu-goroda",
+        "images": {
+          "data": [
+            {
+              "id": 74,
+              "attributes": {
+                "name": "404e0efb628cb89988f1afbfcdb6705c_900x_.jpg",
+                "alternativeText": "404e0efb628cb89988f1afbfcdb6705c_900x_.jpg",
+                "caption": "404e0efb628cb89988f1afbfcdb6705c_900x_.jpg",
+                "width": 900,
+                "height": 599,
+                "formats": {
+                  "small": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1661172107/small_404e0efb628cb89988f1afbfcdb6705c_900x_d0021d5ce4.jpg",
+                    "hash": "small_404e0efb628cb89988f1afbfcdb6705c_900x_d0021d5ce4",
+                    "mime": "image/jpeg",
+                    "name": "small_404e0efb628cb89988f1afbfcdb6705c_900x_.jpg",
+                    "path": null,
+                    "size": 36.52,
+                    "width": 500,
+                    "height": 333,
+                    "provider_metadata": {
+                      "public_id": "small_404e0efb628cb89988f1afbfcdb6705c_900x_d0021d5ce4",
+                      "resource_type": "image"
+                    }
+                  },
+                  "medium": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1661172106/medium_404e0efb628cb89988f1afbfcdb6705c_900x_d0021d5ce4.jpg",
+                    "hash": "medium_404e0efb628cb89988f1afbfcdb6705c_900x_d0021d5ce4",
+                    "mime": "image/jpeg",
+                    "name": "medium_404e0efb628cb89988f1afbfcdb6705c_900x_.jpg",
+                    "path": null,
+                    "size": 76.05,
+                    "width": 750,
+                    "height": 499,
+                    "provider_metadata": {
+                      "public_id": "medium_404e0efb628cb89988f1afbfcdb6705c_900x_d0021d5ce4",
+                      "resource_type": "image"
+                    }
+                  },
+                  "thumbnail": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1661172105/thumbnail_404e0efb628cb89988f1afbfcdb6705c_900x_d0021d5ce4.jpg",
+                    "hash": "thumbnail_404e0efb628cb89988f1afbfcdb6705c_900x_d0021d5ce4",
+                    "mime": "image/jpeg",
+                    "name": "thumbnail_404e0efb628cb89988f1afbfcdb6705c_900x_.jpg",
+                    "path": null,
+                    "size": 9.64,
+                    "width": 235,
+                    "height": 156,
+                    "provider_metadata": {
+                      "public_id": "thumbnail_404e0efb628cb89988f1afbfcdb6705c_900x_d0021d5ce4",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "404e0efb628cb89988f1afbfcdb6705c_900x_d0021d5ce4",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 108.81,
+                "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1661172105/404e0efb628cb89988f1afbfcdb6705c_900x_d0021d5ce4.jpg",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                  "public_id": "404e0efb628cb89988f1afbfcdb6705c_900x_d0021d5ce4",
+                  "resource_type": "image"
+                },
+                "createdAt": "2022-08-22T12:41:47.973Z",
+                "updatedAt": "2022-08-22T12:41:47.973Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 10,
+      "attributes": {
+        "Date": "2022-08-20T02:11:00.000Z",
+        "article": "**Ансамбль жестовой песни \"Поющие сердцем\" Пермского государственного гуманитарно-педагогического университета в преддверии 299-летия Екатеринбурга записал клип на песню \"Город на Исети\". Авторами оригинальной композиции являются журналист \"Областной газеты\" **_Ольга Белоусова_** и звукорежиссер, музыкант **_Виктор Солдатов_**.**\n\nНа жестовом языке песню исполнили _**Мария Новикова**_ и _**Елена Бокова**_, смонтировала клип _**Татьяна Липина**_.\n\n\"О Екатеринбурге есть много хороших песен, и нам хотелось, чтобы одну из них люди с нарушениями слуха смогли \"услышать\", прочувствовать целиком, а не просто прочитать ее текст\", — передает слова монтажера пресс-служба администрации уральской столицы.\n\nПо словам Ольги Белоусовой, песня была написана еще к 296-му дню рождения города. В этом году вместе с командой энтузиастов авторы решили перевести ее на другие языки. \n\n\"Екатеринбург — многонациональный мегаполис. И хочется, чтобы каждый его житель смог спеть песню о любимом городе и на русском, и на родном языке. Сейчас есть версии на английском, французском, китайском, японском и татарском языках. Готовятся переводы на марийский, киргизский, мансийский и другие языки\", — рассказала автор текста.\n\nК проекту присоединяются как талантливые переводчики и исполнители из Екатеринбурга, так и из других регионов и стран. Например, на башкирский язык песню перевел поэт из республики Башкортостан _**Мунир Иксанов**_, а версией на японском языке занимался русско-японский дуэт Deai из Токио.\n\nОльга Белоусова рассказала, что на перевод и разучивание песни \"Город на Исети\" у ребят из ансамбля \"Поющие сердцем\" ушло несколько недель. Фоном клипа стали виды Екатеринбурга, снятые с квадрокоптера.\n\n\n[https://www.oblgazeta.ru/society/138137/](https://www.oblgazeta.ru/society/138137/)\n\nФото: Владимир Мартьянов",
+        "title": "\"Областная газета\": Песню журналиста \"ОГ\" ко дню рождения Екатеринбурга перевели на разные языки",
+        "createdAt": "2022-08-22T12:49:34.321Z",
+        "updatedAt": "2022-08-22T17:29:47.593Z",
+        "publishedAt": "2022-08-22T12:49:35.520Z",
+        "description": "К проекту присоединяются талантливые переводчики и исполнители как из Екатеринбурга, так и из других регионов и стран. ",
+        "slug": "oblastnaya-gazeta-pesnyu-zhurnalista-og-ko-dnyu-rozhdeniya-ekaterinburga-pereveli-na-raznye-yazyki",
+        "images": {
+          "data": [
+            {
+              "id": 75,
+              "attributes": {
+                "name": "f12351ca-6c2a-4115-b243-c9ec75d803f7-227b456e-d4d.jpg.1024x0_q85.jpg",
+                "alternativeText": "f12351ca-6c2a-4115-b243-c9ec75d803f7-227b456e-d4d.jpg.1024x0_q85.jpg",
+                "caption": "f12351ca-6c2a-4115-b243-c9ec75d803f7-227b456e-d4d.jpg.1024x0_q85.jpg",
+                "width": 1024,
+                "height": 683,
+                "formats": {
+                  "large": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1661172428/large_f12351ca_6c2a_4115_b243_c9ec75d803f7_227b456e_d4d_jpg_1024x0_q85_ed6244374a.jpg",
+                    "hash": "large_f12351ca_6c2a_4115_b243_c9ec75d803f7_227b456e_d4d_jpg_1024x0_q85_ed6244374a",
+                    "mime": "image/jpeg",
+                    "name": "large_f12351ca-6c2a-4115-b243-c9ec75d803f7-227b456e-d4d.jpg.1024x0_q85.jpg",
+                    "path": null,
+                    "size": 74.51,
+                    "width": 1000,
+                    "height": 667,
+                    "provider_metadata": {
+                      "public_id": "large_f12351ca_6c2a_4115_b243_c9ec75d803f7_227b456e_d4d_jpg_1024x0_q85_ed6244374a",
+                      "resource_type": "image"
+                    }
+                  },
+                  "small": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1661172430/small_f12351ca_6c2a_4115_b243_c9ec75d803f7_227b456e_d4d_jpg_1024x0_q85_ed6244374a.jpg",
+                    "hash": "small_f12351ca_6c2a_4115_b243_c9ec75d803f7_227b456e_d4d_jpg_1024x0_q85_ed6244374a",
+                    "mime": "image/jpeg",
+                    "name": "small_f12351ca-6c2a-4115-b243-c9ec75d803f7-227b456e-d4d.jpg.1024x0_q85.jpg",
+                    "path": null,
+                    "size": 21.71,
+                    "width": 500,
+                    "height": 333,
+                    "provider_metadata": {
+                      "public_id": "small_f12351ca_6c2a_4115_b243_c9ec75d803f7_227b456e_d4d_jpg_1024x0_q85_ed6244374a",
+                      "resource_type": "image"
+                    }
+                  },
+                  "medium": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1661172429/medium_f12351ca_6c2a_4115_b243_c9ec75d803f7_227b456e_d4d_jpg_1024x0_q85_ed6244374a.jpg",
+                    "hash": "medium_f12351ca_6c2a_4115_b243_c9ec75d803f7_227b456e_d4d_jpg_1024x0_q85_ed6244374a",
+                    "mime": "image/jpeg",
+                    "name": "medium_f12351ca-6c2a-4115-b243-c9ec75d803f7-227b456e-d4d.jpg.1024x0_q85.jpg",
+                    "path": null,
+                    "size": 44.67,
+                    "width": 750,
+                    "height": 500,
+                    "provider_metadata": {
+                      "public_id": "medium_f12351ca_6c2a_4115_b243_c9ec75d803f7_227b456e_d4d_jpg_1024x0_q85_ed6244374a",
+                      "resource_type": "image"
+                    }
+                  },
+                  "thumbnail": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1661172428/thumbnail_f12351ca_6c2a_4115_b243_c9ec75d803f7_227b456e_d4d_jpg_1024x0_q85_ed6244374a.jpg",
+                    "hash": "thumbnail_f12351ca_6c2a_4115_b243_c9ec75d803f7_227b456e_d4d_jpg_1024x0_q85_ed6244374a",
+                    "mime": "image/jpeg",
+                    "name": "thumbnail_f12351ca-6c2a-4115-b243-c9ec75d803f7-227b456e-d4d.jpg.1024x0_q85.jpg",
+                    "path": null,
+                    "size": 6.31,
+                    "width": 234,
+                    "height": 156,
+                    "provider_metadata": {
+                      "public_id": "thumbnail_f12351ca_6c2a_4115_b243_c9ec75d803f7_227b456e_d4d_jpg_1024x0_q85_ed6244374a",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "f12351ca_6c2a_4115_b243_c9ec75d803f7_227b456e_d4d_jpg_1024x0_q85_ed6244374a",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 80.41,
+                "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1661172427/f12351ca_6c2a_4115_b243_c9ec75d803f7_227b456e_d4d_jpg_1024x0_q85_ed6244374a.jpg",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                  "public_id": "f12351ca_6c2a_4115_b243_c9ec75d803f7_227b456e_d4d_jpg_1024x0_q85_ed6244374a",
+                  "resource_type": "image"
+                },
+                "createdAt": "2022-08-22T12:47:10.616Z",
+                "updatedAt": "2022-08-22T12:47:10.616Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 8,
+      "attributes": {
+        "Date": "2022-08-19T10:00:00.000Z",
+        "article": "Накануне 299-го дня рождения у Екатеринбурга появилась ещё одна песня на татарском языке - в переводе поэта Хафиза Галиева.\n\nЕё исполнили дуэтом руководитель, хормейстер коллектива татарской песни \"Яшьлек\" Свердловского государственного областного Дворца народного творчества _**Рафис Нигамадьянов**_ и ученица 11 класса школы № 215 Екатеринбурга, корреспондент социального молодёжного телепроекта «Школа с Акцентом» _**Марианна Таминдарова**_.",
+        "title": "\"Исет буендагы кала!\": о Екатеринбурге спели на татарском языке",
+        "createdAt": "2022-08-22T12:36:33.977Z",
+        "updatedAt": "2022-08-23T05:05:05.246Z",
+        "publishedAt": "2022-08-22T12:36:35.789Z",
+        "description": "Песню исполнили дуэтом Рафис Нигамадьянов и Марианна Таминдарова",
+        "slug": "iset-buendagy-kala-o-ekaterinburge-speli-na-tatarskom-yazyke",
+        "images": {
+          "data": [
+            {
+              "id": 73,
+              "attributes": {
+                "name": "5764a9cd-7464-4474-b875-c0d6a9527826.jpg",
+                "alternativeText": "5764a9cd-7464-4474-b875-c0d6a9527826.jpg",
+                "caption": "5764a9cd-7464-4474-b875-c0d6a9527826.jpg",
+                "width": 1024,
+                "height": 768,
+                "formats": {
+                  "large": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1661171462/large_5764a9cd_7464_4474_b875_c0d6a9527826_ec703a4e01.jpg",
+                    "hash": "large_5764a9cd_7464_4474_b875_c0d6a9527826_ec703a4e01",
+                    "mime": "image/jpeg",
+                    "name": "large_5764a9cd-7464-4474-b875-c0d6a9527826.jpg",
+                    "path": null,
+                    "size": 123.39,
+                    "width": 1000,
+                    "height": 750,
+                    "provider_metadata": {
+                      "public_id": "large_5764a9cd_7464_4474_b875_c0d6a9527826_ec703a4e01",
+                      "resource_type": "image"
+                    }
+                  },
+                  "small": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1661171464/small_5764a9cd_7464_4474_b875_c0d6a9527826_ec703a4e01.jpg",
+                    "hash": "small_5764a9cd_7464_4474_b875_c0d6a9527826_ec703a4e01",
+                    "mime": "image/jpeg",
+                    "name": "small_5764a9cd-7464-4474-b875-c0d6a9527826.jpg",
+                    "path": null,
+                    "size": 44.73,
+                    "width": 500,
+                    "height": 375,
+                    "provider_metadata": {
+                      "public_id": "small_5764a9cd_7464_4474_b875_c0d6a9527826_ec703a4e01",
+                      "resource_type": "image"
+                    }
+                  },
+                  "medium": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1661171463/medium_5764a9cd_7464_4474_b875_c0d6a9527826_ec703a4e01.jpg",
+                    "hash": "medium_5764a9cd_7464_4474_b875_c0d6a9527826_ec703a4e01",
+                    "mime": "image/jpeg",
+                    "name": "medium_5764a9cd-7464-4474-b875-c0d6a9527826.jpg",
+                    "path": null,
+                    "size": 82.09,
+                    "width": 750,
+                    "height": 563,
+                    "provider_metadata": {
+                      "public_id": "medium_5764a9cd_7464_4474_b875_c0d6a9527826_ec703a4e01",
+                      "resource_type": "image"
+                    }
+                  },
+                  "thumbnail": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1661171461/thumbnail_5764a9cd_7464_4474_b875_c0d6a9527826_ec703a4e01.jpg",
+                    "hash": "thumbnail_5764a9cd_7464_4474_b875_c0d6a9527826_ec703a4e01",
+                    "mime": "image/jpeg",
+                    "name": "thumbnail_5764a9cd-7464-4474-b875-c0d6a9527826.jpg",
+                    "path": null,
+                    "size": 10.45,
+                    "width": 208,
+                    "height": 156,
+                    "provider_metadata": {
+                      "public_id": "thumbnail_5764a9cd_7464_4474_b875_c0d6a9527826_ec703a4e01",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "5764a9cd_7464_4474_b875_c0d6a9527826_ec703a4e01",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 109.32,
+                "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1661171460/5764a9cd_7464_4474_b875_c0d6a9527826_ec703a4e01.jpg",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                  "public_id": "5764a9cd_7464_4474_b875_c0d6a9527826_ec703a4e01",
+                  "resource_type": "image"
+                },
+                "createdAt": "2022-08-22T12:31:04.609Z",
+                "updatedAt": "2022-08-22T12:31:04.609Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 11,
+      "attributes": {
+        "Date": "2022-12-01T19:00:00.000Z",
+        "article": "Певица из Уфы _**Зилия Бахтиева**_  исполнила песню \"Город на Исети\" на башкирском языке. \n\nНа башкирский язык композицию перевел поэт, член Союза писателей Республики Башкортостан _**Мунир Иксанов**_. \n\nИдею проекта поддержали Башкирский историко-культурный центр в Свердловской области и Республиканский центр народного творчества Башкортостана. Исполнительницей песни стала Зилия Бахтиева, которая поет на семи языках мира, но жителям республики особенно полюбились башкирские народные песни в ее исполнении.\n\nАртистка лично приехала в Екатеринбург, чтобы представить композицию. Презентация состоялась в Музее истории и археологии Урала на форуме \"На одной земле, под одним небом\", приуроченном к празднованию дней башкирской культуры в Свердловской области. Мероприятие собрало представителей общественных организаций и национально-культурных объединений из двух регионов.\n\n\"Мне очень понравилась идея перевести одну и ту же песню о городе на несколько языков, — отметила Зилия Бахтиева. — На каждом языке она звучит по-своему и, я уверена, желающих послушать песню на своем родном языке будет много. Сама песня интересная и динамичная. Надеюсь, что она будет радовать слушателей не только из Екатеринбурга, но и из других регионов\".\n\nКак отмечает руководитель историко-культурного центра Светлана Кульмурзина, языки народов Урала нуждаются в популяризации, чтобы носители применяли их как можно чаще наряду с русским языком, и такие проекты помогают это сделать. Кроме того, по ее словам, совместная работа над башкирской версией песни позволит укрепить культурное сотрудничество между Свердловской областью и Республикой Башкортостан и по-новому взглянуть на образ Екатеринбурга, который в следующем году отметит 300-летний юбилей.\n\nПодробнее - [по ссылке](https://kulturarb.ru/ru/news/pevica-iz-bashkortostana-ziliya-bahtieva-spela-o-ekaterinburge).",
+        "title": "Певица из Башкирии спела о Екатеринбурге",
+        "createdAt": "2023-01-23T12:27:32.210Z",
+        "updatedAt": "2023-02-03T11:13:48.614Z",
+        "publishedAt": "2023-01-23T12:30:13.144Z",
+        "description": "Зилия Бахтиева представила песню горожанам на форуме \"На одной земле, под одним небом\", приуроченном к празднованию дней башкирской культуры в Свердловской области",
+        "slug": "pevicza-iz-bashkirii-spela-o-ekaterinburge",
+        "images": {
+          "data": [
+            {
+              "id": 86,
+              "attributes": {
+                "name": "8ba4e37f-87c6-49b0-9bea-8f393b176e04-Q34A0843_1.jpg__1024x731_q85_subsampling-2.jpg.1024x0_q85.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1024,
+                "height": 731,
+                "formats": {
+                  "large": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1674476683/large_8ba4e37f_87c6_49b0_9bea_8f393b176e04_Q34_A0843_1_jpg_1024x731_q85_subsampling_2_jpg_1024x0_q85_27c17cdcaf.jpg",
+                    "hash": "large_8ba4e37f_87c6_49b0_9bea_8f393b176e04_Q34_A0843_1_jpg_1024x731_q85_subsampling_2_jpg_1024x0_q85_27c17cdcaf",
+                    "mime": "image/jpeg",
+                    "name": "large_8ba4e37f-87c6-49b0-9bea-8f393b176e04-Q34A0843_1.jpg__1024x731_q85_subsampling-2.jpg.1024x0_q85.jpg",
+                    "path": null,
+                    "size": 113.73,
+                    "width": 1000,
+                    "height": 714,
+                    "provider_metadata": {
+                      "public_id": "large_8ba4e37f_87c6_49b0_9bea_8f393b176e04_Q34_A0843_1_jpg_1024x731_q85_subsampling_2_jpg_1024x0_q85_27c17cdcaf",
+                      "resource_type": "image"
+                    }
+                  },
+                  "small": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1674476683/small_8ba4e37f_87c6_49b0_9bea_8f393b176e04_Q34_A0843_1_jpg_1024x731_q85_subsampling_2_jpg_1024x0_q85_27c17cdcaf.jpg",
+                    "hash": "small_8ba4e37f_87c6_49b0_9bea_8f393b176e04_Q34_A0843_1_jpg_1024x731_q85_subsampling_2_jpg_1024x0_q85_27c17cdcaf",
+                    "mime": "image/jpeg",
+                    "name": "small_8ba4e37f-87c6-49b0-9bea-8f393b176e04-Q34A0843_1.jpg__1024x731_q85_subsampling-2.jpg.1024x0_q85.jpg",
+                    "path": null,
+                    "size": 36.02,
+                    "width": 500,
+                    "height": 357,
+                    "provider_metadata": {
+                      "public_id": "small_8ba4e37f_87c6_49b0_9bea_8f393b176e04_Q34_A0843_1_jpg_1024x731_q85_subsampling_2_jpg_1024x0_q85_27c17cdcaf",
+                      "resource_type": "image"
+                    }
+                  },
+                  "medium": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1674476683/medium_8ba4e37f_87c6_49b0_9bea_8f393b176e04_Q34_A0843_1_jpg_1024x731_q85_subsampling_2_jpg_1024x0_q85_27c17cdcaf.jpg",
+                    "hash": "medium_8ba4e37f_87c6_49b0_9bea_8f393b176e04_Q34_A0843_1_jpg_1024x731_q85_subsampling_2_jpg_1024x0_q85_27c17cdcaf",
+                    "mime": "image/jpeg",
+                    "name": "medium_8ba4e37f-87c6-49b0-9bea-8f393b176e04-Q34A0843_1.jpg__1024x731_q85_subsampling-2.jpg.1024x0_q85.jpg",
+                    "path": null,
+                    "size": 70.6,
+                    "width": 750,
+                    "height": 535,
+                    "provider_metadata": {
+                      "public_id": "medium_8ba4e37f_87c6_49b0_9bea_8f393b176e04_Q34_A0843_1_jpg_1024x731_q85_subsampling_2_jpg_1024x0_q85_27c17cdcaf",
+                      "resource_type": "image"
+                    }
+                  },
+                  "thumbnail": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1674476683/thumbnail_8ba4e37f_87c6_49b0_9bea_8f393b176e04_Q34_A0843_1_jpg_1024x731_q85_subsampling_2_jpg_1024x0_q85_27c17cdcaf.jpg",
+                    "hash": "thumbnail_8ba4e37f_87c6_49b0_9bea_8f393b176e04_Q34_A0843_1_jpg_1024x731_q85_subsampling_2_jpg_1024x0_q85_27c17cdcaf",
+                    "mime": "image/jpeg",
+                    "name": "thumbnail_8ba4e37f-87c6-49b0-9bea-8f393b176e04-Q34A0843_1.jpg__1024x731_q85_subsampling-2.jpg.1024x0_q85.jpg",
+                    "path": null,
+                    "size": 9.09,
+                    "width": 219,
+                    "height": 156,
+                    "provider_metadata": {
+                      "public_id": "thumbnail_8ba4e37f_87c6_49b0_9bea_8f393b176e04_Q34_A0843_1_jpg_1024x731_q85_subsampling_2_jpg_1024x0_q85_27c17cdcaf",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "8ba4e37f_87c6_49b0_9bea_8f393b176e04_Q34_A0843_1_jpg_1024x731_q85_subsampling_2_jpg_1024x0_q85_27c17cdcaf",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 121.77,
+                "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1674476683/8ba4e37f_87c6_49b0_9bea_8f393b176e04_Q34_A0843_1_jpg_1024x731_q85_subsampling_2_jpg_1024x0_q85_27c17cdcaf.jpg",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                  "public_id": "8ba4e37f_87c6_49b0_9bea_8f393b176e04_Q34_A0843_1_jpg_1024x731_q85_subsampling_2_jpg_1024x0_q85_27c17cdcaf",
+                  "resource_type": "image"
+                },
+                "createdAt": "2023-01-23T12:24:44.092Z",
+                "updatedAt": "2023-01-23T12:24:44.092Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 12,
+      "attributes": {
+        "Date": "2023-02-18T19:00:00.000Z",
+        "article": "**Студентка 3 курса Института права и предпринимательства УрГЮУ имени В. Ф. Яковлева _Дарья Васина_ исполнила и записала песню на казахском языке к 300-летию Екатеринбурга.** \n\nПроект удалось реализовать  при поддержке вице-президента Свердловской региональной общественной организации «Евразия-Казахстан» _**Галии Аманжуловой**_.\n\n- С самого детства люблю петь, это моё хобби, - рассказывает Дарья, - Мой творческий путь начался в Казахстане и продолжается в России. Я являюсь представителем Казахского молодёжного землячества и рада, что могу демонстрировать свою культуру и знакомиться с традициями других национальностей. Этот проект является для меня отличным опытом.\n\nДарья - лауреат областного песенного конкурса на иностранном языке Sing&Fly и XXIII фестиваля студенческого творчества «Уральская студенческая весна», победитель международного фестиваля-конкурса «Я - частичка России» и участницаразличных творческих мероприятий.\n",
+        "title": "Дарья Васина спела о Екатеринбурге на казахском языке",
+        "createdAt": "2023-02-20T11:32:30.128Z",
+        "updatedAt": "2023-02-20T12:04:23.830Z",
+        "publishedAt": "2023-02-20T12:04:23.823Z",
+        "description": null,
+        "slug": "darya-vasina-spela-o-ekaterinburge-na-kazahskom-yazyke",
+        "images": {
+          "data": [
+            {
+              "id": 94,
+              "attributes": {
+                "name": "VrmGUVfbry0.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1170,
+                "height": 669,
+                "formats": {
+                  "large": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1676892616/large_Vrm_GU_Vfbry0_2d5b6c5bd4.jpg",
+                    "hash": "large_Vrm_GU_Vfbry0_2d5b6c5bd4",
+                    "mime": "image/jpeg",
+                    "name": "large_VrmGUVfbry0.jpg",
+                    "path": null,
+                    "size": 96.52,
+                    "width": 1000,
+                    "height": 572,
+                    "provider_metadata": {
+                      "public_id": "large_Vrm_GU_Vfbry0_2d5b6c5bd4",
+                      "resource_type": "image"
+                    }
+                  },
+                  "small": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1676892616/small_Vrm_GU_Vfbry0_2d5b6c5bd4.jpg",
+                    "hash": "small_Vrm_GU_Vfbry0_2d5b6c5bd4",
+                    "mime": "image/jpeg",
+                    "name": "small_VrmGUVfbry0.jpg",
+                    "path": null,
+                    "size": 36.33,
+                    "width": 500,
+                    "height": 286,
+                    "provider_metadata": {
+                      "public_id": "small_Vrm_GU_Vfbry0_2d5b6c5bd4",
+                      "resource_type": "image"
+                    }
+                  },
+                  "medium": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1676892616/medium_Vrm_GU_Vfbry0_2d5b6c5bd4.jpg",
+                    "hash": "medium_Vrm_GU_Vfbry0_2d5b6c5bd4",
+                    "mime": "image/jpeg",
+                    "name": "medium_VrmGUVfbry0.jpg",
+                    "path": null,
+                    "size": 65.06,
+                    "width": 750,
+                    "height": 429,
+                    "provider_metadata": {
+                      "public_id": "medium_Vrm_GU_Vfbry0_2d5b6c5bd4",
+                      "resource_type": "image"
+                    }
+                  },
+                  "thumbnail": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1676892616/thumbnail_Vrm_GU_Vfbry0_2d5b6c5bd4.jpg",
+                    "hash": "thumbnail_Vrm_GU_Vfbry0_2d5b6c5bd4",
+                    "mime": "image/jpeg",
+                    "name": "thumbnail_VrmGUVfbry0.jpg",
+                    "path": null,
+                    "size": 11.86,
+                    "width": 245,
+                    "height": 140,
+                    "provider_metadata": {
+                      "public_id": "thumbnail_Vrm_GU_Vfbry0_2d5b6c5bd4",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "Vrm_GU_Vfbry0_2d5b6c5bd4",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 113.87,
+                "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1676892615/Vrm_GU_Vfbry0_2d5b6c5bd4.jpg",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                  "public_id": "Vrm_GU_Vfbry0_2d5b6c5bd4",
+                  "resource_type": "image"
+                },
+                "createdAt": "2023-02-20T11:30:16.668Z",
+                "updatedAt": "2023-02-20T11:30:16.668Z"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "meta": {
+    "pagination": { "page": 1, "pageSize": 25, "pageCount": 1, "total": 9 }
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "data": [
+    {
+      "id": 2,
+      "attributes": {
+        "Header": "Ma chère ville sur l’Isset",
+        "Text": "Les bâtiments vitrés\nQui rivalisent de quantité d’étages,\nLa neige sur le pavé\nQui tombe des pommiers déjà fleuris.\nJ’aurais dû remarquer\nQu’on a avancé tellement en âge,\nAu bout de ces années\nOn a tellement grandi.\n\nRefrain:\nMa chère ville sur l’Isset\nQui pour moi est une vedette,\nLoin de toi je rêve de tes belles lumières,\nC’est une ville sur l’Isset\nOù j’ai eu la chance parfaite\nDe passer ma vie entière !\n\nIl y a tellement de villes\nQui sont pour moi lointaines et étrangères,\nTellement de capitales\nQui m’oublient et qui sont oubliées.\nIl est pourtant facile\nDe reconnaître le visage si cher\nEt je retrouve les dalles\nDe cet ancien pavé.\n\nRefrain.\n\nC’est là où je voudrais\nMe ballader sur les boulevards déserts,\nOù je peux rencontrer\nLes mêmes visages que je reconnais,\nC’est là qu’on peut trouver\nCeux pour qui Sverdlovsk est toujours cher\nEt Ekaterinbourg est également aimé.\n\nRefrain.",
+        "Lang": "Французский",
+        "videoUrl": "https://www.youtube.com/embed/XMh36eZf4HA",
+        "createdAt": "2022-03-24T08:17:35.766Z",
+        "updatedAt": "2022-03-27T16:21:30.733Z",
+        "publishedAt": "2022-03-24T08:17:37.034Z",
+        "audioFile": { "data": null }
+      }
+    },
+    {
+      "id": 1,
+      "attributes": {
+        "Header": "Город на Исети",
+        "Text": "Высотки смотрят вверх,\nМеряясь друг с другом этажами,\nИ яблоневый снег\nКружится над гранитной мостовой.\nИ непонятно мне,\nКак же не заметили мы сами,\nКак за двадцать лет\nВыросли с тобой!\n\nПрипев:\nЗдравствуй, город на Исети!\nЯ в твои попался сети,\nИ в дороге снятся знакомые огни.\nЭтот город на Исети -\nЗдесь посчастливилось мне встретить\nСамоцветные глаза твои!\n\nТак много их, столиц,\nКоторые тебя ещё не знают,\nИ столько городов,\nЧто, может быть, давно уже не ждут.\nНо среди тысяч лиц\nОдно в улыбке заставляет таять,\nИ к набережной вновь\nНа встречу я иду.\n\nПрипев.\n\nНе потому ли тут\nМечтать и танцевать, как в детстве, просто,\nЧто рядом есть глаза –\nГлаза твои родные, а вокруг\nВсе те, кто повзрослел,\nТе, кто вырос вместе со Свердловском,\nИ те, с кем подрастёт Екатеринбург!\n\nПрипев.",
+        "Lang": "Русский",
+        "videoUrl": "https://www.youtube.com/embed/zKYeqLKLXVU",
+        "createdAt": "2022-03-24T08:16:48.927Z",
+        "updatedAt": "2022-03-27T16:19:14.110Z",
+        "publishedAt": "2022-03-24T08:16:50.516Z",
+        "audioFile": { "data": null }
+      }
+    },
+    {
+      "id": 37,
+      "attributes": {
+        "Header": "イセチ川の街",
+        "Text": "\n高層ビル\n\n背のびで そらを見上げる\n\nりんごの花\n\n雪のように 積もりゆく\n\nどうしてだろう\n\n大人になったことさえ\n\n気づかずに\n\n生きてきた\n\n\n\nイセチ川の街\n\n心奪われて\n\nこいしい日々\n\n夢の中\n\n\n\nイセチ川の街\n\n笑顔が溢れてる\n\n素敵な出会いがある\n\n\n\n まだみぬ街\n\n広い世界があなたを　まちのぞむ\n\n不思議な声によばれ\n\n\nまだみぬ空\n\n果てしなくつづいている\n\nわすれないで\n\nこの街を\n\n\n\n昔ここは\n\nスヴェルドロフスクとよばれた\n\n懐かしい\n\n君と過ごした街さ\n\n\n\nかわってゆく\n\n大好きなふるさとよ\n\n僕たちの\n\nエカテリンブルク\n",
+        "Lang": "Японский",
+        "videoUrl": null,
+        "createdAt": "2022-08-06T17:15:29.764Z",
+        "updatedAt": "2022-08-06T17:15:40.256Z",
+        "publishedAt": "2022-08-06T17:15:40.253Z",
+        "audioFile": {
+          "data": {
+            "id": 50,
+            "attributes": {
+              "name": "GorodNaIseti_Japan.wav",
+              "alternativeText": "GorodNaIseti_Japan.wav",
+              "caption": "GorodNaIseti_Japan.wav",
+              "width": null,
+              "height": null,
+              "formats": null,
+              "hash": "Gorod_Na_Iseti_Japan_5bd6ceb403",
+              "ext": ".wav",
+              "mime": "audio/wav",
+              "size": 61205.35,
+              "url": "https://res.cloudinary.com/dnmdhshdk/video/upload/v1659806092/Gorod_Na_Iseti_Japan_5bd6ceb403.wav",
+              "previewUrl": "http://res.cloudinary.com/dnmdhshdk/video/upload/c_scale,dl_200,vs_6,w_250/Gorod_Na_Iseti_Japan_5bd6ceb403.gif",
+              "provider": null,
+              "provider_metadata": {
+                "public_id": "Gorod_Na_Iseti_Japan_5bd6ceb403",
+                "resource_type": "video"
+              },
+              "createdAt": "2022-08-06T17:14:55.206Z",
+              "updatedAt": "2022-08-06T17:14:55.206Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "Header": "This is Iset river city",
+        "Text": "The buildings grow high,\nThe streets keep getting wider, neon lights\nMake everything surreal\nYou hardly recognize that granite stair\nAs time is going by,\nOur city makes the bond between us tighter\nAnd even when we’re old\nIts magic will be there\n\nRefrain:\nLet me greet you, major city\nHave I ever told you're pretty\nWell, I know that you’ve been dreaming of me, too\nHere I am in major city\nI don’t mean to come out witty\nBut it’s major just because of you\n\nAnd maybe you can leave,\nTo see the world and travel for a while\nTo get a better view\nOf places far away you don’t belong\nBut here’s the only face\nThat always lights your own with a smile\nThat makes you feel alive\nAnd sing your own song\n\nRefrain\n\nI’m not the one who seeks\nA better life and leads her way to Moscow\nI wonder if I felt\nThe way I feel without you by my side\nBut when I see the eyes\nOf those around who grew up in Sverdlovsk,\nOr Ekaterinburg,\nThey really share my pride\n\nRefrain",
+        "Lang": "Английский",
+        "videoUrl": null,
+        "createdAt": "2022-03-24T08:28:03.733Z",
+        "updatedAt": "2022-08-06T17:16:35.359Z",
+        "publishedAt": "2022-03-24T08:28:04.824Z",
+        "audioFile": {
+          "data": {
+            "id": 4,
+            "attributes": {
+              "name": "Gorod_EN.mp3",
+              "alternativeText": "Gorod_EN.mp3",
+              "caption": "Gorod_EN.mp3",
+              "width": null,
+              "height": null,
+              "formats": null,
+              "hash": "Gorod_EN_4f457bb017",
+              "ext": ".mp3",
+              "mime": "audio/mpeg",
+              "size": 9250.48,
+              "url": "https://res.cloudinary.com/dnmdhshdk/video/upload/v1648109922/Gorod_EN_4f457bb017.mp3",
+              "previewUrl": "http://res.cloudinary.com/dnmdhshdk/video/upload/c_scale,dl_200,vs_6,w_250/Gorod_EN_4f457bb017.gif",
+              "provider": null,
+              "provider_metadata": {
+                "public_id": "Gorod_EN_4f457bb017",
+                "resource_type": "video"
+              },
+              "createdAt": "2022-03-24T08:18:43.052Z",
+              "updatedAt": "2022-03-24T08:18:43.052Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "Header": "ИСӘТ БУЙЫНДАҒЫ ҠАЛА",
+        "Text": "Ҡатлы-ҡатлы йорттар,\nБейеклеген һынашып, күккә ашҡан.\nӨйөрөлә ҡарҙар,\nХәтерләтеп алмағас сәскәһен.\nТиҫтә-тиҫтә йылдар\nҺиҙелмәй ҙә үтеп киткән, уйлаһаң,\nКисәңге сабыйҙар\nҘур үҫкәндәр бөгөн.\n\nПРИПЕВ:\nИсәт буйындағы ҡала,\nҺиңә йөрәгем арбала.\nЮлға сыҡһам, төшкә\nИнә таныш уттар.\nИсәт буйындағы ҡала,\nОшонда миңә тап була\nШәмсыраҡтай\nБалҡыған күҙҙәр.\n\nБик күп ымһындырған,\nТаныш булмаған ҡалалар донъяла.\nБарҙыр, алыҫайып,\nКөтмәгәндәре лә беҙҙе күптән.\nМеңдәр араһынан\nҺине күреп, минең йөҙөм йылмая,\nҺәм, ҡаршыңа сығып,\nЯр буйына киләм.\n\nБала-саҡтағылай,\nХыял итеү, бейеү ябай тойола,\nБаҡһа күҙҙәремә\nЙәүһәр нурҙар бөрккән һинең күҙҙәр,\nЭргә-тирәләрҙә\nСвердловск менән бергә үҫкәндәр\nбулһа,\nҺәм Екатеринбург\nМенән үҫеүселәр. ",
+        "Lang": "Башкирский",
+        "videoUrl": null,
+        "createdAt": "2022-07-29T17:02:29.316Z",
+        "updatedAt": "2022-12-01T14:12:02.883Z",
+        "publishedAt": "2022-07-29T17:03:09.572Z",
+        "audioFile": {
+          "data": {
+            "id": 82,
+            "attributes": {
+              "name": "Город на Исети - Зилия Бахтиева.mp3",
+              "alternativeText": "Город на Исети - Зилия Бахтиева.mp3",
+              "caption": "Город на Исети - Зилия Бахтиева.mp3",
+              "width": null,
+              "height": null,
+              "formats": null,
+              "hash": "Gorod_na_Iseti_Ziliya_Bahtieva_e6a2265b63",
+              "ext": ".mp3",
+              "mime": "audio/mpeg",
+              "size": 8706.09,
+              "url": "https://res.cloudinary.com/dnmdhshdk/video/upload/v1669903379/Gorod_na_Iseti_Ziliya_Bahtieva_e6a2265b63.mp3",
+              "previewUrl": "http://res.cloudinary.com/dnmdhshdk/video/upload/c_scale,dl_200,vs_6,w_250/Gorod_na_Iseti_Ziliya_Bahtieva_e6a2265b63.gif",
+              "provider": null,
+              "provider_metadata": {
+                "public_id": "Gorod_na_Iseti_Ziliya_Bahtieva_e6a2265b63",
+                "resource_type": "video"
+              },
+              "createdAt": "2022-12-01T14:03:00.303Z",
+              "updatedAt": "2022-12-01T14:03:00.303Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 39,
+      "attributes": {
+        "Header": "ИСИТ БУЕНДАГЫ КАЛА",
+        "Text": "Омтыла биеккә,\nЗур өйләр бер-берсен узышып,\nАлмагач чәчкәсе\nКар кебек чуарлый үләнне.\nТик гаҗәп шунысы,\nНичек соң үзебез сизми калдык\nЕгерме ел шәһәр\nБелән үскәнне!\n\nКушымта:\nИсит буендагы кала,\nСиңа карап, хәйран калам,\nСинең утларыңны юлда төшемдә күрәм.\nИсит буенда йөргәндә,\nШатланам сине күргәнгә\nҺәм синең энҗе күзләреңне!\n\nСине җир йөзендә\nБелмәгән мәркәзләр күптер әле.\nҺәм бик күп шәһәрләр,\nКөтмиләрдер сине күптәннән.\nМеңнәрчә йөзләрдән\nТик сиңа елмаям сөенечтән,\nТарихи күпергә\nЯныңа килгәндә!\n    Кушымта.\n\nМиңа рәхәт бирә\nИркәмнең ягымлы елмаюы,\nБэлки шуңадыр да\nБиисе киләдер онтылып.\nКүпме кеше яшәп,\nТөзегән элекке Свирдлауны\nКемнәр белән бергә үсзр Кәтринбур!\n       Кушымта.",
+        "Lang": "Татарский",
+        "videoUrl": null,
+        "createdAt": "2022-08-11T07:45:21.372Z",
+        "updatedAt": "2022-08-22T11:36:11.537Z",
+        "publishedAt": "2022-08-11T07:45:36.355Z",
+        "audioFile": {
+          "data": {
+            "id": 72,
+            "attributes": {
+              "name": "Iset TATAR mix 1.mp3",
+              "alternativeText": "Iset TATAR mix 1.mp3",
+              "caption": "Iset TATAR mix 1.mp3",
+              "width": null,
+              "height": null,
+              "formats": null,
+              "hash": "Iset_TATAR_mix_1_782e9be265",
+              "ext": ".mp3",
+              "mime": "audio/mpeg",
+              "size": 9186.74,
+              "url": "https://res.cloudinary.com/dnmdhshdk/video/upload/v1661168149/Iset_TATAR_mix_1_782e9be265.mp3",
+              "previewUrl": "http://res.cloudinary.com/dnmdhshdk/video/upload/c_scale,dl_200,vs_6,w_250/Iset_TATAR_mix_1_782e9be265.gif",
+              "provider": null,
+              "provider_metadata": {
+                "public_id": "Iset_TATAR_mix_1_782e9be265",
+                "resource_type": "video"
+              },
+              "createdAt": "2022-08-22T11:35:50.149Z",
+              "updatedAt": "2022-08-22T11:35:50.149Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 40,
+      "attributes": {
+        "Header": "伊塞特河上的城",
+        "Text": "举头望蓝天\n摩天大楼高耸入云\n苹果树花瓣\n在大街小巷翩翩起舞\n我完全不知道\n不经意间二十多年\n我们是怎样\n和你一起长大\n\n你好，伊赛特河上的城\n我坠入了你织的情网之中\n在路上，看见你的身影\n城市在伊塞特河上\n我多么高兴在这里遇见你\n叶卡捷琳堡\n\n那么多城市\n可是还没有人知道你\n那么多地方\n或许也早已被人忘记\n茫茫人海中\n一个微笑让你融化\n我来到河边\n为了遇见你\n\n你好，伊赛特河上的城\n我坠入了你织的情网之中\n在路上，看见你的身影\n城市在伊塞特河上\n我多么高兴在这里遇见你\n叶卡捷琳堡\n\n就是在这里\n梦想和跳舞都简简单单\n热切的目光\n都是来自亲人和朋友\n就是那些人\n那些和我们一起生活\n在这座城市\n叶卡捷琳堡\n\n你好，伊赛特特河上的城\n我坠入了你织的情网之中\n在路上，看见你的身影\n城市在伊塞特河上\n我多么高兴在这里遇见你\n叶卡捷琳堡\n\n你好伊赛特的城\n我坠入了你的情网\n在路上\n看见你的身影\n伊塞特的城\n很幸运与你相遇\n遇见你在叶卡捷琳堡",
+        "Lang": "Китайский",
+        "videoUrl": null,
+        "createdAt": "2022-08-12T13:01:23.695Z",
+        "updatedAt": "2022-08-12T13:14:38.466Z",
+        "publishedAt": "2022-08-12T13:14:38.458Z",
+        "audioFile": {
+          "data": {
+            "id": 58,
+            "attributes": {
+              "name": "Iset China mix 1 (1).mp3",
+              "alternativeText": "Iset China mix 1 (1).mp3",
+              "caption": "Iset China mix 1 (1).mp3",
+              "width": null,
+              "height": null,
+              "formats": null,
+              "hash": "Iset_China_mix_1_1_1349c8bc77",
+              "ext": ".mp3",
+              "mime": "audio/mpeg",
+              "size": 9186.74,
+              "url": "https://res.cloudinary.com/dnmdhshdk/video/upload/v1660308652/Iset_China_mix_1_1_1349c8bc77.mp3",
+              "previewUrl": "http://res.cloudinary.com/dnmdhshdk/video/upload/c_scale,dl_200,vs_6,w_250/Iset_China_mix_1_1_1349c8bc77.gif",
+              "provider": null,
+              "provider_metadata": {
+                "public_id": "Iset_China_mix_1_1_1349c8bc77",
+                "resource_type": "video"
+              },
+              "createdAt": "2022-08-12T12:50:52.987Z",
+              "updatedAt": "2022-08-12T12:50:52.987Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 43,
+      "attributes": {
+        "Header": "Die Stadt an der Iset",
+        "Text": "Hochh&auml;user zieh\\`n herauf,\nMiteinander streiten, wachsen h&ouml;her.\nUnd Apfelblumenschnee,\nEr&nbsp;walzet &uuml;ber allen Stra&szlig;en dicht.\nIch bin ja&nbsp;so&nbsp;erstaunt,\nWarum haben wir nicht g\\`sehen fr&uuml;her:\nSchau` wie siecher geht\nSchon ein neuer Schicht!\n\nRefrain:\nAn&nbsp;Iset ist unser Haus,\nKann ich nicht von ihm daraus\nUnd bekannte Lichter tr&auml;umen, wo&nbsp;wir gehen.\nHier an&nbsp;diesen sch&ouml;nen Orten\nZwischen vielen-vielen Leuten\nHab` ich deine Augen zu&nbsp;sehen.\n\nDie Hauptst&auml;dte sind\nSo&nbsp;viele und sie kennen dich gar nicht.\nSie warten auf dich nicht &mdash;\nDie fremde St&auml;dte auf der ganzen Welt.\nVor Augen alles blindt&nbsp;&mdash; \nBemerke ich mir immer dein Gesicht.\nDu&nbsp;kommst zu&nbsp;mir hinauf &mdash;\nDas Andere mir fehlt.\n\nRefrain.\nIch tr&auml;ume wie ein Kind,\nIch tanze frei und leicht&nbsp;&mdash; es&nbsp;ist kein Wunder,\nWeil deine Augen nah\nUnd alle meine Freunde auch sind.\nWir wohnten in&nbsp;Sverdlovsk &mdash;\nMit dieser Stadt erwachsenen wir wurden,\nUnd Jekaterinburg immer sch&ouml;ner wird!\n\nRefrain.",
+        "Lang": "Немецкий",
+        "videoUrl": null,
+        "createdAt": "2022-11-25T10:12:30.584Z",
+        "updatedAt": "2023-02-23T17:09:10.394Z",
+        "publishedAt": "2022-11-25T10:12:32.790Z",
+        "audioFile": {
+          "data": {
+            "id": 95,
+            "attributes": {
+              "name": "ISET 2022 DEU mix 1 (Accord) (1).mp3",
+              "alternativeText": null,
+              "caption": null,
+              "width": null,
+              "height": null,
+              "formats": null,
+              "hash": "ISET_2022_DEU_mix_1_Accord_1_58a24df504",
+              "ext": ".mp3",
+              "mime": "audio/mpeg",
+              "size": 9379,
+              "url": "https://res.cloudinary.com/dnmdhshdk/video/upload/v1677171195/ISET_2022_DEU_mix_1_Accord_1_58a24df504.mp3",
+              "previewUrl": "http://res.cloudinary.com/dnmdhshdk/video/upload/c_scale,dl_200,vs_6,w_250/ISET_2022_DEU_mix_1_Accord_1_58a24df504.gif",
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "ISET_2022_DEU_mix_1_Accord_1_58a24df504",
+                "resource_type": "video"
+              },
+              "createdAt": "2023-02-23T16:53:16.814Z",
+              "updatedAt": "2023-02-23T16:53:16.814Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 41,
+      "attributes": {
+        "Header": "",
+        "Text": "![blago4.png](https://res.cloudinary.com/dnmdhshdk/image/upload/v1670077392/blago4_5ae92f85c5.png)",
+        "Lang": "Мансийский",
+        "videoUrl": null,
+        "createdAt": "2022-11-22T16:57:26.596Z",
+        "updatedAt": "2022-12-03T14:24:12.271Z",
+        "publishedAt": "2022-12-03T14:24:12.265Z",
+        "audioFile": { "data": null }
+      }
+    },
+    {
+      "id": 45,
+      "attributes": {
+        "Header": "Горад на Исеці",
+        "Text": "Вышынныя дамы глядзяць уверх, \nМераючыся адзін з адным паверхамі,\n І яблыневы снег\n Кружыцца над гранітнай маставой. \nІ незразумела мне, Як жа не заўважылі мы самі, \nЯк за дваццаць гадоў Выраслі з табой!\n \nПрыпеў: Добры дзень, горад на Исеці!\n Я ў твае трапіўся сеткі, \nІ ў дарозе сняцца знаёмыя агні. \nГэты горад на Исети –\n Тут пашчасціла мне сустрэць Самацветныя вочы твае! \n\nТак шмат іх, сталіц, \nЯкія цябе яшчэ не ведаюць, \nІ столькі гарадоў, \nШто, можа быць, даўно ўжо не чакаюць.\n Але сярод тысяч асоб \nАдно ва ўсмешцы прымушае раставаць, \nІ да набярэжнай зноў \nНа сустрэчу я іду. \n\nПрыпеў. \nЦі не таму тут Марыць і танцаваць, як у дзяцінстве, проста, \nШто побач ёсць вочы – Вочы твае родныя, а вакол \nУсе тыя, хто пасталеў, Тыя, хто вырас разам са Свярдлоўскам, \nІ тыя, з кім падрасце Екацерынбург!\n\nПрыпеў. \n",
+        "Lang": "Белорусский",
+        "videoUrl": null,
+        "createdAt": "2023-02-06T06:10:53.170Z",
+        "updatedAt": "2023-02-06T06:10:55.564Z",
+        "publishedAt": "2023-02-06T06:10:55.557Z",
+        "audioFile": { "data": null }
+      }
+    },
+    {
+      "id": 44,
+      "attributes": {
+        "Header": "Исеть ола",
+        "Text": "Пӧрт-влак ончат каваш,\nЭтажышт дене таҥасалыт,\nДа олмапу лышташ,\nЛум гай корнышкына вола.\n\nОм керт мый умылен,\nКузе шекланен шуктен омыл\nВет коло ий коклаш\nКоктын вияҥынна.\n\nПрипев:\nСай улат, Исеть олана,\nЭҥырвотышкет логалнам,\nДа корнешна тулжо омешем кончалеш.\nПиалан Исеть олана,\nВашлияш тышан шогалнам,\nШонанпылгае шинчат-влакет.\n\nПеш шуко тӱҥ ола\nПелыже тыйым вет ок пале,\nДа вес верлаштыжат,\nИктат вет тыйжым ок вучо.\n\nДа тӱрлӧ еҥ коклаш,\nИк шыргыжмаш гыч шӱм шулалын\nИ набережный дек,\nМый вашлияш каем.\n\nПрипев\n\nСадланак огыл мо,\nМурен кушташ тышан куштылго,\nШочмо ончалтышет,\nМылам эн шерге, тый палет\n\nЧылан кӧ кӱш кӱзен,\nКӧ кушкын шуктен Свердловск дене,\nИ кӧ ден нӧлталтеш, Екатеринбург!\n\nПрипев",
+        "Lang": "Марийский",
+        "videoUrl": null,
+        "createdAt": "2023-01-23T12:31:53.683Z",
+        "updatedAt": "2023-02-06T06:12:48.169Z",
+        "publishedAt": "2023-01-23T12:31:55.499Z",
+        "audioFile": { "data": null }
+      }
+    },
+    {
+      "id": 46,
+      "attributes": {
+        "Header": "Исет бойындағы қала",
+        "Text": "Биік  ғимараттар,\nКезектесіп қабаттарын өлшейді\nАлма ұлпа қарлар,\nгранитті көпір\nүстінде қалқиды\nҚалайша біз,байқамадық…\nСенмен бірге….\nЖиырма жыл өткенің.\n   \nҚайырмасы\nИсет бойындағы қала,\nСенің арбауына түстім\nШамдар,жол жөңекей\nелестейді маған!!!\nИсет бойындағы қала,\nОсы жерде кездестірдім\nЖылтырлаған әдемі мөлдір көздерді….\n\nӘлі де қаншама астаналар,\nМүлдем сені білмейтін.\nҚаншама қалалар мүлдем әлі күтпейтін\nМыңдаған жүздер ішінде, \nсенің күлкін баурап мені алады.\nЖағалауға кездесуге саған,\nқайтып мен асығам.\n\n Қайырмасы\n\nБалғын-бала шақтай,\nАрмандап би-билеп те ән салатын.\nБота жақын көздерге,\nБауыр бастық бізде талай.\nСвердловскиймен бірге өскен,\nӨсіп шығады да Екатеринбургпенен.\n      \nҚайырмасы\n",
+        "Lang": "Казахский",
+        "videoUrl": null,
+        "createdAt": "2023-02-15T04:31:11.865Z",
+        "updatedAt": "2023-02-15T04:31:14.112Z",
+        "publishedAt": "2023-02-15T04:31:14.102Z",
+        "audioFile": {
+          "data": {
+            "id": 90,
+            "attributes": {
+              "name": "ISET 2022 KZ mix 2.mp3",
+              "alternativeText": null,
+              "caption": null,
+              "width": null,
+              "height": null,
+              "formats": null,
+              "hash": "ISET_2022_KZ_mix_2_271ecc69cd",
+              "ext": ".mp3",
+              "mime": "audio/mpeg",
+              "size": 9186.74,
+              "url": "https://res.cloudinary.com/dnmdhshdk/video/upload/v1676435445/ISET_2022_KZ_mix_2_271ecc69cd.mp3",
+              "previewUrl": "http://res.cloudinary.com/dnmdhshdk/video/upload/c_scale,dl_200,vs_6,w_250/ISET_2022_KZ_mix_2_271ecc69cd.gif",
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "ISET_2022_KZ_mix_2_271ecc69cd",
+                "resource_type": "video"
+              },
+              "createdAt": "2023-02-15T04:30:46.317Z",
+              "updatedAt": "2023-02-15T04:30:46.317Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 38,
+      "attributes": {
+        "Header": "Город на Исети",
+        "Text": "Высотки смотрят вверх,\nМеряясь друг с другом этажами,\nИ яблоневый снег\nКружится над гранитной мостовой.\nИ непонятно мне,\nКак же не заметили мы сами,\nКак за двадцать лет\nВыросли с тобой!\n\nПрипев:\nЗдравствуй, город на Исети!\nЯ в твои попался сети,\nИ в дороге снятся знакомые огни.\nЭтот город на Исети -\nЗдесь посчастливилось мне встретить\nСамоцветные глаза твои!\n\nТак много их, столиц,\nКоторые тебя ещё не знают,\nИ столько городов,\nЧто, может быть, давно уже не ждут.\nНо среди тысяч лиц\nОдно в улыбке заставляет таять,\nИ к набережной вновь\nНа встречу я иду.\n\nПрипев.\n\nНе потому ли тут\nМечтать и танцевать, как в детстве, просто,\nЧто рядом есть глаза –\nГлаза твои родные, а вокруг\nВсе те, кто повзрослел,\nТе, кто вырос вместе со Свердловском,\nИ те, с кем подрастёт Екатеринбург!\n\nПрипев.",
+        "Lang": "Русский жестовый",
+        "videoUrl": "https://www.youtube.com/embed/phtYb66T__k",
+        "createdAt": "2022-08-07T09:29:05.884Z",
+        "updatedAt": "2023-02-15T04:31:27.222Z",
+        "publishedAt": "2022-08-07T09:29:08.153Z",
+        "audioFile": { "data": null }
+      }
+    },
+    {
+      "id": 49,
+      "attributes": {
+        "Header": "Исет ҫинчи хула",
+        "Text": "Шырав хули\n\" Ҫӳллӗ ҫуртсем пӑхаҫ(ҫӗ),\nПӗр-пӗрин хутсене танлаштарса,\nУлмуҫҫи ҫӗҫкесем\nГранит кӗпер ҫул ҫийӗн ҫаврӑнаҫ(ҫӗ).\nАнчах Ӑнланаймастӑп эп,\nЭпир хамӑрта асӑрхаман мӗнле?\nИксӗмӗр ҫирӗм ҫул хушши…\n…Ӳссе Кайнине!\n\nЮрӑ:\nСалам, Исет ҫинчи хула!\nЭпӗ лекрӗм сан тыткӑна\nҪул ҫинче те тӗлӗнеҫҫӗ…\n……палланӑ ҫутӑсем.\nКу Исет ҫинчи хула - Кунта мана кӗтсе илме\nкурма тӳр килнӗччӗ сан йӑлтӑртатакан куҫ(у)сене!\n\nҪапла нумаййӑн вӗсем,\nсана пӗлменскӗрсем столицӑсем\nУн чухлӗ те хула,\nкӗтсе тӑмаҫҫӗ Тахҫантанпах та.\nАнчах пин-пин сӑн хушшинче\nПӗри йӑл кулӑра ирӗлтет те,\nҪырма хӗрри патне…\n…каллех каятӑп хирӗҫ эп.\nЮрӑ.\nҪавӑнпах мар-и кунта\nача чухнехи пек ӗмӗтленме-ташлама ансат,\nҪумра мӗн пур-ши куҫусем –\nкуҫусем те тӑван, тавра-та Вара\nҪитӗннисем пурте\nВӗсем Свердловскипе пӗрле ӳснисем,\nЕкатеринбургпа ӳссе те ҫитӗнекенсем!\nЮрӑ.",
+        "Lang": "Чувашский",
+        "videoUrl": null,
+        "createdAt": "2023-05-23T11:42:33.224Z",
+        "updatedAt": "2023-05-24T17:35:59.519Z",
+        "publishedAt": "2023-05-23T11:42:35.451Z",
+        "audioFile": { "data": null }
+      }
+    }
+  ],
+  "meta": {
+    "pagination": { "page": 1, "pageSize": 25, "pageCount": 1, "total": 14 }
+  }
+}
