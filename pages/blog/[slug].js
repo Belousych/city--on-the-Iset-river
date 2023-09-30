@@ -1,4 +1,3 @@
-import { GETPOSTBYSLUG } from "@/apollo/queries/post";
 import find from "lodash/find";
 // import { POSTSSLUG } from "@/apollo/queries/posts";
 import Error from "next/error";
@@ -10,8 +9,6 @@ import Article from "@/components/Article/Article";
 import Layout from "@/components/Layouts/Layout";
 import posts from "@/components/data/posts.json";
 
-// import Query from "@/components/query";
-import { addApolloState, initializeApollo } from "@/utils/apollo";
 import markdownToHtml from "@/utils/markdownToHtml";
 
 const Post = ({ slug, content, postData }) => {
@@ -85,17 +82,6 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  // const apolloClient = initializeApollo();
-
-  // const postsData = await apolloClient
-  //   .query({
-  //     query: GETPOSTBYSLUG,
-  //     variables: {
-  //       slug: params.slug,
-  //     },
-  //   })
-  //   .then((res) => res);
-
   const postData = find(posts.data, (item) => item.attributes.slug === params.slug) || {};
 
   // const postData = postsData?.data?.posts?.data[0] || {};
