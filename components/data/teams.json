@@ -1603,6 +1603,114 @@
           }
         }
       }
+    },
+    {
+      "id": 57,
+      "attributes": {
+        "Name": "Олеся Мокрушина",
+        "role": "перевод на чувашский язык",
+        "link": "https://vk.com/lesyagordeeva",
+        "createdAt": "2022-11-25T04:46:24.465Z",
+        "updatedAt": "2022-11-25T04:54:11.059Z",
+        "publishedAt": "2022-11-25T04:54:11.056Z",
+        "sortOrder": null,
+        "avatar": {
+          "data": {
+            "id": 80,
+            "attributes": {
+              "name": "20221118_НТГСПИ2_cut-photo.ru.jpg",
+              "alternativeText": "20221118_НТГСПИ2_cut-photo.ru.jpg",
+              "caption": "20221118_НТГСПИ2_cut-photo.ru.jpg",
+              "width": 299,
+              "height": 300,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1669351580/thumbnail_20221118_NTGSPI_2_cut_photo_ru_e05f6a4280.png",
+                  "hash": "thumbnail_20221118_NTGSPI_2_cut_photo_ru_e05f6a4280",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_20221118_НТГСПИ2_cut-photo.ru.jpg",
+                  "path": null,
+                  "size": 57.26,
+                  "width": 155,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_20221118_NTGSPI_2_cut_photo_ru_e05f6a4280",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "20221118_NTGSPI_2_cut_photo_ru_e05f6a4280",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 57.21,
+              "url": "http://res.cloudinary.com/dnmdhshdk/image/upload/v1703177474/s7p6l7r0jn64pwee3rua.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "20221118_NTGSPI_2_cut_photo_ru_e05f6a4280",
+                "resource_type": "image"
+              },
+              "createdAt": "2022-11-25T04:46:21.154Z",
+              "updatedAt": "2022-11-25T04:46:21.154Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 57,
+      "attributes": {
+        "Name": "Олег Моисеев",
+        "role": "перевод на чувашский язык",
+        "link": null,
+        "createdAt": "2022-11-25T04:46:24.465Z",
+        "updatedAt": "2022-11-25T04:54:11.059Z",
+        "publishedAt": "2022-11-25T04:54:11.056Z",
+        "sortOrder": null,
+        "avatar": {
+          "data": {
+            "id": 80,
+            "attributes": {
+              "name": "20221118_НТГСПИ2_cut-photo.ru.jpg",
+              "alternativeText": "20221118_НТГСПИ2_cut-photo.ru.jpg",
+              "caption": "20221118_НТГСПИ2_cut-photo.ru.jpg",
+              "width": 299,
+              "height": 300,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/dnmdhshdk/image/upload/v1669351580/thumbnail_20221118_NTGSPI_2_cut_photo_ru_e05f6a4280.png",
+                  "hash": "thumbnail_20221118_NTGSPI_2_cut_photo_ru_e05f6a4280",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_20221118_НТГСПИ2_cut-photo.ru.jpg",
+                  "path": null,
+                  "size": 57.26,
+                  "width": 155,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_20221118_NTGSPI_2_cut_photo_ru_e05f6a4280",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "20221118_NTGSPI_2_cut_photo_ru_e05f6a4280",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 57.21,
+              "url": "http://res.cloudinary.com/dnmdhshdk/image/upload/v1703177474/ci1s5l2dcldddns0nwoa.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "20221118_NTGSPI_2_cut_photo_ru_e05f6a4280",
+                "resource_type": "image"
+              },
+              "createdAt": "2022-11-25T04:46:21.154Z",
+              "updatedAt": "2022-11-25T04:46:21.154Z"
+            }
+          }
+        }
+      }
     }
   ],
   "meta": {
